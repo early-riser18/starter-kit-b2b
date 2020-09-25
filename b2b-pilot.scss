@@ -1,0 +1,749 @@
+$header-color: #027b84;
+$header-size: 4rem;
+$subheader-size: 2.5rem;
+$p-big: 3rem;
+$p-med: 2.5rem;
+
+
+@media screen and (min-width: 1055px) {
+	.front-cover {
+		position: relative;
+		text-align: center;
+		height: 50rem;
+		overflow: hidden;
+		background-image: url(https://i.ibb.co/pKWKLf5/apple-devices-books-business-coffee-572056.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+		img {
+			width: 100%;
+		}
+	}
+	.cover-text {
+		position: absolute;
+		top: 40%;
+		left: 10vw;
+		text-align: left;
+		h1 {
+			background-color: rgba(255, 255, 255, 0.888);
+			color: $header-color;
+			font-size: $header-size;
+			text-align: left;
+			padding: 0.5rem;
+		}
+		h2 {
+			background-color: rgba(255, 155, 24, 0.848);
+			text-align: left;
+			font-size: $subheader-size;
+			color: white;
+			display: inline;
+			padding: 0.5rem;
+			margin: 1rem 0;
+			position: relative;
+			left: 0;
+			top: 1.5rem;
+			font-weight: normal;
+		}
+		a {
+			background-color: $header-color;
+			padding: 0.9rem 1.5rem;
+			color: white;
+			font-size: 2rem;
+			text-decoration: none;
+			position: relative;
+			top: 3rem;
+			left: 0;
+		}
+	}
+	.cmn-text {
+		font-size: $p-big;
+		text-align: left;
+		margin: 5rem 10vw;
+		margin-bottom: 0;
+		max-width: 60%;
+		#highlight {
+			font-weight: bold;
+			padding-top: 2rem;
+		}
+	}
+
+	.cmn-text1 {
+		font-size: $p-big;
+		text-align: left;
+		margin: 5rem 10vw;
+		margin-bottom: 0;
+	}
+	.main-value {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 1rem 5vw;
+		justify-content: space-around;
+		div {
+			display: flex;
+			flex-flow: column nowrap;
+			align-content: stretch;
+			position: relative;
+			margin: 2rem;
+			box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+			flex-basis: 42%;
+			background-color: #f9f9f9;
+			&:hover {
+				cursor: pointer;
+				#overlay {
+					opacity: 0.9;
+				}
+			}
+			#overlay {
+				display: flex;
+				transition: opacity 0.3s ease-in-out;
+				opacity: 0;
+				padding: 3rem;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background-color: #ff9918;
+				z-index: 1;
+				text-align: center;
+				a {
+					color: white;
+					font-size: $subheader-size;
+					text-decoration: none;
+					padding: 5rem;
+				}
+			}
+		}
+		&>:nth-child(1) {
+			border-left: 5px solid #ff9918;
+		}
+		&>:nth-child(2) {
+			border-left: 5px solid #027b84;
+		}
+		&>:nth-child(3) {
+			border-left: 5px solid black;
+		}
+		&>:nth-child(4) {
+			border-left: 5px solid #659b5e;
+		}
+		#hg-text {
+			padding: 1rem 3rem;
+			color: #027b84;
+			font-size: $p-med;
+			background-color: white;
+		}
+		.description {
+			border-radius: 0 0.5rem 0.5rem 0;
+			padding: 2rem 3rem;
+			font-size: $p-med;
+			ul {
+				position: relative;
+				top: 1rem;
+				left: 2rem;
+				li {
+					padding: 0.5rem 0;
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+	.guarantee {
+		display: flex;
+		flex-flow: column nowrap;
+		margin: 6rem 10vw;
+		align-items: stretch;
+		#title {
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+            margin: 1rem;
+			img {
+				height: 5rem;
+			}
+			h4 {
+				font-size: $subheader-size;
+				color: #414141;
+				
+				margin-left: 2rem;
+				padding-bottom: 0.5rem;
+				border-bottom: 1px solid #414141;
+			}
+		}
+		&>:nth-child(2) {
+			align-self: center;
+			display: flex;
+			
+			color: #414141;
+			flex-flow: row nowrap;
+			div {
+                margin-top: 2rem;
+				padding: 0rem 3rem;
+				padding-left: 6rem;
+				li {
+                    padding: 1rem 0;
+					font-size: 1.5rem;
+					list-style-image: url(https://i.ibb.co/PGbWMTj/checkmarkgreen.png);
+                }
+               &#divider {
+                    border-right: 1px solid #9c9c9c;
+                }
+			}
+		}
+    }
+    
+    .contactus {
+      h4{  color: #027b84;
+        font-size: $header-size; }
+        padding: 3rem 10vw;
+	}
+	
+	.contact-form {
+		margin: 0 10vw;
+	}
+	p.copyright {
+		display: none !important;
+	}
+	.partners {
+		margin-top: -8rem;
+		padding: 3rem 10vw;
+		 display: flex;
+		 justify-content: space-between;
+		 flex-flow: row nowrap;
+		 width: 100%;
+		 
+		 p {font-size: 2rem;
+			color: $header-color;
+			font-weight: bold;
+		}
+		
+		#title {
+		 width: 25rem;
+		 align-self: stretch;
+		
+		 padding-top: 4rem;
+		 border-right: 2px solid #e6e6e6;
+		 padding-right: 2rem;
+		
+		}
+		#logos {
+		
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+		width: 70%; 
+		z-index:9999;
+		background-color: white;
+		}
+		  
+			img{
+			height: 11rem;
+			width: auto;
+			padding: 1rem;
+			border-radius: 1.5rem;;
+		transition: box-shadow 0.2s ease-in-out;
+		
+		&:hover {
+			box-shadow:0 0.5rem 1rem rgba(63, 85, 94, 0.185);
+		
+		}
+		}
+		}
+
+
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1054px) {   
+	.front-cover {
+	position: relative;
+	text-align: center;
+	height: 40rem;
+	overflow: hidden;
+	background-image: url(https://i.ibb.co/pKWKLf5/apple-devices-books-business-coffee-572056.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	img {
+		width: 100%;
+	}
+}
+.cover-text {
+	position: absolute;
+	top: 40%;
+	left: 10vw;
+	text-align: left;
+	h1 {
+		background-color: rgba(255, 255, 255, 0.888);
+		color: $header-color;
+		font-size: 3rem;
+		text-align: left;
+		padding: 0.5rem;
+	}
+	h2 {
+		background-color: rgba(255, 155, 24, 0.848);
+		text-align: left;
+		font-size: 2.5rem;
+		color: white;
+		display: inline;
+		padding: 0.5rem;
+		margin: 1rem 0;
+		position: relative;
+		left: 0;
+		top: 1.5rem;
+		font-weight: normal;
+	}
+	a {
+		background-color: $header-color;
+		padding: 0.9rem 1.5rem;
+		color: white;
+		font-size: 2rem;
+		text-decoration: none;
+		position: relative;
+		top: 3rem;
+		left: 0;
+	}
+
+}
+.cmn-text {
+	font-size: $p-big;
+	text-align: left;
+	margin: 5rem 10vw;
+	margin-bottom: 0;
+	#highlight {
+		font-weight: bold;
+		padding-top: 2rem;
+	}
+}
+
+.cmn-text1 {
+	font-size: $p-big;
+	text-align: left;
+	margin: 5rem 10vw;
+	margin-bottom: 0;
+}
+.main-value {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 1rem 5vw;
+	justify-content: space-around;
+	div {
+		display: flex;
+		flex-flow: column nowrap;
+		align-content: stretch;
+		position: relative;
+		margin: 2rem;
+		box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+		flex-basis: 42%;
+		background-color: #f9f9f9;
+		&:hover {
+			cursor: pointer;
+			#overlay {
+				opacity: 0.9;
+			}
+		}
+		#overlay {
+			display: flex;
+			transition: opacity 0.3s ease-in-out;
+			opacity: 0;
+			padding: 3rem;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: #ff9918;
+			z-index: 1;
+			text-align: center;
+			a {
+				color: white;
+				font-size: $subheader-size;
+				text-decoration: none;
+				padding: 5rem;
+			}
+		}
+	}
+	&>:nth-child(1) {
+		border-left: 5px solid #ff9918;
+	}
+	&>:nth-child(2) {
+		border-left: 5px solid #027b84;
+	}
+	&>:nth-child(3) {
+		border-left: 5px solid black;
+	}
+	&>:nth-child(4) {
+		border-left: 5px solid #659b5e;
+	}
+	#hg-text {
+		padding: 1rem 3rem;
+		color: #027b84;
+		font-size: $p-med;
+		background-color: white;
+	}
+	.description {
+		border-radius: 0 0.5rem 0.5rem 0;
+		padding: 2rem 3rem;
+		font-size: $p-med;
+		ul {
+			position: relative;
+			top: 1rem;
+			left: 2rem;
+			li {
+				padding: 0.5rem 0;
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+.guarantee {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 6rem 10vw;
+	align-items: stretch;
+	#title {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		margin: 1rem;
+		img {
+			height: 5rem;
+		}
+		h4 {
+			font-size: $subheader-size;
+			color: #414141;
+			
+			margin-left: 2rem;
+			padding-bottom: 0.5rem;
+			border-bottom: 1px solid #414141;
+		}
+	}
+	&>:nth-child(2) {
+		align-self: center;
+		display: flex;
+		
+		color: #414141;
+		flex-flow: row nowrap;
+		div {
+			margin-top: 2rem;
+			padding: 0rem 3rem;
+			padding-left: 6rem;
+			li {
+				padding: 1rem 0;
+				font-size: 1.5rem;
+				list-style-image: url(https://i.ibb.co/PGbWMTj/checkmarkgreen.png);
+			}
+		   &#divider {
+				border-right: 1px solid #9c9c9c;
+			}
+		}
+	}
+}
+
+
+
+.contact-form {
+	margin: 0 10vw;
+}
+p.copyright {
+	display: none !important;
+}
+.partners {
+	padding: 2rem 7rem;
+	margin-top: -6rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+   
+     p {font-size: 2rem;
+        color: $header-color;
+    font-weight: bold;
+    }
+    
+    #title {
+        align-self: stretch;
+        text-align: center;
+        border-bottom: 2px solid #e6e6e6;
+       padding-bottom: 2rem;
+       color: $header-color;
+	   font-weight: bold;
+	   z-index:9999;
+		background-color: white;
+    
+    }
+
+
+    #logos {
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 0;
+        width: 100%;
+		max-width: 90rem;
+		
+    }
+      
+        img{
+
+        height: 11rem;
+        width: auto;
+       padding: 1rem;
+        border-radius: 1.5rem;;
+        transition: box-shadow 0.2s ease-in-out;
+        
+        &:hover {
+            box-shadow:0 0.5rem 1rem rgba(63, 85, 94, 0.185);
+        
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 749px) , (max-device-width: 749px) {
+	.front-cover {
+	position: relative;
+	text-align: center;
+	height: 40rem;
+	overflow: hidden;
+	background-image: url(https://i.ibb.co/pKWKLf5/apple-devices-books-business-coffee-572056.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	img {
+		width: 100%;
+	}
+}
+.cover-text {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	padding: 2vw;
+	text-align: center;
+	h1 {
+		background-color: rgba(255, 255, 255, 0.888);
+		color: $header-color;
+		font-size: 3rem;
+		padding: 0.5rem;
+	}
+	h2 {
+		background-color: rgba(255, 155, 24, 0.848);
+		font-size: 2rem;
+		color: white;
+		display: inline;
+		padding: 0.5rem;
+		margin: 1rem 0;
+		position: relative;
+		left: 0;
+		top: 1.5rem;
+		font-weight: normal;
+	}
+	a {
+		background-color: $header-color;
+		padding: 0.9rem 1.5rem;
+		color: white;
+		font-size: 2rem;
+		text-decoration: none;
+		position: relative;
+		top: 3rem;
+		left: 0;
+
+	
+	}
+}
+.cmn-text {
+	font-size: $p-big;
+	text-align: left;
+	margin: 3rem 2vw;
+	margin-bottom: 0;
+	#highlight {
+		font-weight: bold;
+		padding-top: 2rem;
+	}
+}
+
+.cmn-text1 {
+	font-size: $p-big;
+	text-align: left;
+	margin: 3rem 2vw;
+	margin-bottom: 0;
+}
+.main-value {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 1rem 0;
+	justify-content: space-around;
+	div {
+		display: flex;
+		flex-flow: column nowrap;
+		align-content: stretch;
+		position: relative;
+		margin: 2rem 1rem;
+		box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+		flex-basis: 42%;
+		background-color: #f9f9f9;
+		&:hover {
+			cursor: pointer;
+			#overlay {
+				opacity: 0.9;
+			}
+		}
+		#overlay {
+			display: flex;
+			transition: opacity 0.3s ease-in-out;
+			opacity: 0;
+			padding: 3rem;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: #ff9918;
+			z-index: 1;
+			text-align: center;
+			a {
+				color: white;
+				font-size: $subheader-size;
+				text-decoration: none;
+				padding: 5rem;
+			}
+		}
+	}
+	&>:nth-child(1) {
+		border-left: 5px solid #ff9918;
+	}
+	&>:nth-child(2) {
+		border-left: 5px solid #027b84;
+	}
+	&>:nth-child(3) {
+		border-left: 5px solid black;
+	}
+	&>:nth-child(4) {
+		border-left: 5px solid #659b5e;
+	}
+	#hg-text {
+		padding: 1rem 3rem;
+		color: #027b84;
+		font-size: 3rem;
+		background-color: white;
+	}
+	.description {
+		border-radius: 0 0.5rem 0.5rem 0;
+		padding: 2rem;
+		font-size: 3rem;
+		ul {
+			position: relative;
+			top: 1rem;
+			left: 2rem;
+			li {
+				padding: 0.5rem 0;
+				font-size: 1.9rem;
+			}
+		}
+	}
+}
+.guarantee {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 5rem 2vw;
+	align-items: stretch;
+	#title {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		margin: 2rem 0;
+		img {
+			height: 6rem;
+		}
+		h4 {
+			font-size: $subheader-size;
+			color: #414141;
+			
+			margin-left: 2rem;
+			padding-bottom: 0.5rem;
+			border-bottom: 1px solid #414141;
+		}
+	}
+	&>:nth-child(2) {
+		align-self: center;
+		display: flex;
+		
+		color: #414141;
+		flex-flow: column nowrap;
+		div {
+			padding: 0rem 3rem;
+			padding-left: 5rem;
+			li {
+				padding: 1rem ;
+				font-size: 1.5rem;
+				list-style-image: url(https://i.ibb.co/PGbWMTj/checkmarkgreen.png);
+			}
+		   
+		}
+	}
+}
+
+
+
+.contact-form {
+	margin: 0 2rem;
+}
+p.copyright {
+	display: none !important;
+}
+.partners {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: stretch;
+    flex-flow: column nowrap;
+    width: 100%;
+
+     p {font-size: 2.5rem;
+        color: $header-color;
+    font-weight: bold;
+    }
+    
+    #title {
+        align-self: stretch;
+        text-align: center;
+     
+        border-bottom: 2px solid #e6e6e6;
+       padding-bottom: 2rem;
+	   z-index:9999;
+	   background-color: white;
+	   margin-top:-6rem;
+    
+    }
+
+
+    #logos {
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding-top: 3rem;;
+         :nth-child(3) {
+            display: none;
+        }
+    }
+      
+        img{
+        height: 17vw;
+        width: auto;
+        margin: 1rem;
+        
+    }
+ }
+}

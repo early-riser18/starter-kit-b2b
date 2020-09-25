@@ -1,0 +1,147 @@
+<head>
+    <link rel="stylesheet"  href="b2b-studentbuddy.css">
+    <link rel="stylesheet" href="b2b-header-page.css">
+    <link rel="stylesheet" href="b2b-footer.css">
+    <link rel="stylesheet" href="b2b-main.css">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+      </style>
+    </head>
+    <body>
+     <script src="main.js"></script>
+  
+  
+      <div class="front-cover">
+        
+            
+  <!-- {% section 'b2b-header' %} -->
+  
+     
+  
+
+  <div class="intro">
+     
+   <div id="text">
+      <h1>Student Buddy</h1>
+      <h4><br>Reinvented student customer support that goes above and beyond for your tenants.<br><br>  </h4>
+      <p>
+       Each new tenant’s questions take on average 8 minutes of your staff’s time during the arrival and departure periods.. 
+     <br><br>  We can help you save this time, save resources, and get more done.
+    <br><br>   Expensive hours are used to answer even basic questions when tenants first move in and as a room provider, you naturally want to answer all of them. However, this means your skilled employees are prevented from doing valuable work
+      </p> 
+  
+    </div>
+    <div id="pic">
+    <img src='https://i.ibb.co/NNWB39W/12.png' alt=''></div>
+   </div>
+   </div>
+   
+
+<div class="what-is-it">
+ <div id="pic"><img src="https://i.ibb.co/7tfnpL0/B2-B-Minim-Web-Page-5.png" alt='starter kit student buddy'></div>
+ <div id="text-zone1">
+    <h2>Our solution</h2><br>
+  <ul>
+     <li>
+        <b>The digital buddy</b><br>At Starter Kit, our team of international students called Buddies are ready at all times to chat with your tenants, helping with any questions. Having similar profiles allows for fluid conversations and sky-high satisfaction. 
+     </li>
+     <li><b>More versatile buddies</b><br>The more information you provide to our knowledge database, the further it decreases the load in your inbox as our Buddies becomes more versatile. </li>
+ <li><b>Transparency</b><br>Want to know what each of your tenants asked our buddies? All customer service tickets are shared to you with our intuitive system so that you can easily find information about tenants and gather more relevant information about your tenants.</li>
+    </ul>
+ </div>
+      
+</div>
+<div class="upcycling-details">
+ <h2>Features</h2>
+ <ul>
+    <li>Supports chat in Email, WhatsApp, WeChat, Line and Facebook Messenger.</li>
+    <li>24/7 support during arrival and departure periods.      </li>
+    <li>Available in 8 languages (English, Mandarin, German, Italian, Spanish, French, Portuguese and Dutch)
+    </li>
+ </ul>
+ <br><br><h4 id="special-covid">Special feature during COVID-19:</h4>
+     <ul><li>Centralize the information about Health & Safety & let the Student Buddies answer your tenants' questions.</li>
+      
+    </ul>
+<p>Student Buddies are an excellent way to provide your tenants with extra psychological support during this anxious situation</p>
+
+
+
+
+ <br><br><h2>Did you know?</h2>
+ <ul>
+    <li>From our latest survey, 89% of tenants rated the Student Buddy service "very helpful".</li>
+    <li>Our service can provide support to thousands of students across multiple residences, fast, efficiently and effectively. </li>
+    <li>Our Student Buddy program is fully GDPR compliant. </li>
+ </ul>
+
+
+</div>
+<div class="what-next">
+ <div id="previous">
+    <a href="/pages/housing-org-upcycling" ><h4>PREVIOUS</h4>
+    <p>UPCYCLING</p>
+    </a>
+ </div>
+ <div id="next">
+    <a href="/pages/housing-org-kits" ><h4>NEXT</h4>
+    <p>THE KITS</p>
+    </a>
+ </div>
+</div>
+
+<div class="cta-trial">
+   <div>
+     <h4>Ready to stop the overwhelming flow of questions and start enjoying multilingual peak-season customer support?</h4>
+  <span>   
+     <p>Explore how easy a trial can be set up.</p>
+   <a href='/pages/housing-org-get-started'>Get Started</a>
+  </span>
+   </div>
+ 
+ </div>
+      
+      {% section 'b2b-footer' %}
+      
+  <script>
+     window.onscroll = function() {myFunction()};
+  
+  // Get the header
+  var header = document.getElementById("myHeader");
+  
+  // Get the offset position of the navbar
+  var sticky = header.offsetTop;
+  
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  
+  function openMenu() {
+     console.log("a");
+   var  x = document.getElementById("mobile-menu");
+   console.log("b");
+  
+  console.log(x.style.display);
+     if (x.style.display === "flex" ){
+      
+        x.style.display = "none";
+        console.log("c");
+  
+     } else {
+      
+        x.style.display = "flex";
+       
+  
+        console.log("d");
+  
+     }
+  }
+  </script>
+  </body>

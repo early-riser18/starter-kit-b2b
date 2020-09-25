@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Gordita-reg", "Open Sans", Sans-Serif;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 1.5;
+	letter-spacing: 0.3;
+	font-size: 62.5%;
+}
+
+font {
+	font-size: inherit;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: 'Gordita-reg';
+	src: url("https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-regular-webfont.woff2?v=1586459720") format("woff2");
+}
+
+@font-face {
+	font-family: 'Gordita-bold';
+	src: url("https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-bold-webfont.woff2?v=1586459720") format("woff2");
+}
+
+
+/******* Footer nav bar product/service page *******/
+
+.what-next {
+	border-top: 1px solid #9c9c9c;
+	border-bottom: 1px solid #9c9c9c;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	div {
+		a {
+			text-decoration: none;
+			&:hover { p {color: #ff9918!important;}
+			    }
+		}
+		h4 {
+			color: #ff9918;
+			font-family: "Gordita-bold";
+		}
+		p {
+			color: rgb(59, 59, 59);
+			font-family: "Gordita-bold";
+			font-weight: bold;
+			font-size: 1.7rem;
+		}
+	}
+	@media screen and (min-width: 750px) {
+		padding: 0 10vw;
+		div { padding: 2rem 0; }
+		h4 {font-size: 1.3rem; }
+		#next {text-align: right;}
+		}
+	
+	@media screen and (max-width: 749px), (max-device-width: 749px) {
+		padding: 0 0.5rem;
+		div {
+			width: 50%;
+			text-align: center;
+            padding: 2rem 0rem;
+        }
+		h4 {font-size: 1.1rem;}			
+	    #next {	border-left: 1px solid #9c9c9c;	}
+	}
+}
+
+.cta-trial {
+	padding: 4rem 0;
+
+	div {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+		padding: 2rem 3rem;
+		background-color: #f9f9f9;
+		max-width: 60%;
+		margin: 0 auto;
+		border-left: 5px solid #ff9918;
+		box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+		min-width: 70rem;
+		transition: box-shadow 0.3s;
+		&:hover {
+			box-shadow: 0.1rem 0.5rem 2.5rem #8f8f8fcc;
+		}
+
+span {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	
+	}
+
+		h4 {
+			color: #027b84;
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 2rem;
+			padding-right: 2rem;
+		}
+		a {
+			color: white;
+			font-size: 2rem;
+			background-color: #ff9918;
+			text-decoration: none;
+			padding: 1.5rem 0;
+			text-align: center;
+			width: 40%;
+			margin-top: 1rem;
+			border-radius: 0.2rem;
+		}
+	}
+
+	@media screen and (max-width: 749px), (max-device-width: 749px) {
+	div {
+		min-width: 0;
+		max-width: 90vw;
+		text-align: center;
+		padding: 2rem 1rem;
+		span {
+			flex-flow: column nowrap;
+		}
+		a {
+			width: 90%;
+		}
+	}
+	
+	
+	}
+}

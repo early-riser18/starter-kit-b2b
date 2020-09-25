@@ -1,0 +1,359 @@
+
+@media screen and (min-width: 1055px) {
+    .header {
+        padding: 1.5rem 6rem ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        z-index: 10;
+        color: black;
+        transition: background-color 0.3s ease-in-out;
+
+        a {
+          color: inherit;
+          text-decoration: none;  
+        }
+        nav a:hover {
+            color: rgb(255, 135, 43);
+            
+                }
+        }
+        
+        .sticky {
+            background-color: white;
+            color: black;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 1px 10px #00000026;
+
+            
+        }
+        #header-logo {
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+
+        } 
+        #header-logo {
+             img {
+            width: 6.5rem;   
+        }
+         p {
+            
+            font-weight: bold;
+            font-size: 3rem;
+            margin-left: 1.5rem;
+            
+        } 
+        }
+        
+        
+        
+        .topnav {
+            display: inline-flex;
+        }
+        .topnav {
+            a {
+                color: inherit;
+            font-size: 1.5rem;
+            text-decoration: none;
+            padding: 1.9rem 2rem;
+            transition: background-color 0.2s ease-in-out;
+        }
+         a:hover {
+            background-color: rgba(255,255,255,0.35)
+        }
+        }
+        #nav-mobile, #mobile-menu {
+            
+            display: none;
+          }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1054px) {
+    .header {
+        padding: 2rem 6rem ;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        z-index: 10;
+        color: black;
+        transition: background-color 0.3s ease-in-out;
+        a {
+            color: inherit;
+            text-decoration: none;  
+          }
+          nav a:hover {
+              color: rgb(255, 135, 43);
+              
+                  }
+          
+  
+    }
+
+
+
+ 
+ .sticky {
+    background-color: white;
+    color: black!important;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 10px #00000026;
+    ;
+    
+    
+}
+
+#header-logo {
+  display: inline-flex;
+ align-items: center;
+ cursor: pointer;
+
+             img {
+            width: 5vw;   
+        }
+         p {
+           
+            font-weight: bold;
+            font-size: 2.5vw;
+            margin-left: 1.5rem;
+            
+        } 
+ }
+
+
+.topnav {
+    display: inline-flex;
+
+    a {
+        color: inherit;
+
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+ a:hover {
+    background-color: rgba(255,255,255,0.35)
+}
+}
+#nav-mobile, #mobile-menu {
+            
+    display: none;
+  }
+}
+
+@media screen and (max-width: 749px) {
+    .header {
+        padding: 2rem 3rem ;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        z-index: 10;
+        color: black;
+        transition: background-color 0.3s ease-in-out;
+        a {
+            color: inherit;
+            text-decoration: none;  
+          }
+          nav a:hover {
+              color: rgb(255, 135, 43);
+              
+                  }
+          }
+
+
+
+ 
+ .sticky {
+    background-color: white;
+    color: black!important;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 10px #00000026;
+    ;
+    
+    
+}
+
+#header-logo {
+  display: inline-flex;
+ align-items: center;
+ cursor: pointer;
+
+             img {
+            width: 5rem;   
+        }
+         p {
+        
+            font-weight: bold;
+            font-size: 3rem;
+            margin-left: 1.5rem;
+            
+        } 
+ }
+
+
+.topnav {
+    a {
+        color: inherit;
+ display: none;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 1rem 1rem;
+
+    
+}
+ a:hover {
+    background-color: rgba(255,255,255,0.35)
+}
+
+}
+
+#nav-mobile, #mobile-menu {
+            
+    display: none;
+  }
+
+.mobile-menu {
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+    
+    display: none;
+    flex-flow: column wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: white;
+height: 50rem;
+padding: 7rem 0 10rem 0;
+box-shadow: 1px 1px 20px #00000048;
+    a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+
+}
+
+@media screen and (max-device-width: 749px) {
+    .header {
+        padding: 1rem 3rem;
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        color: black;  
+        transition: background-color 0.3s ease-in-out;
+        
+        }
+        
+        .sticky {
+            background-color: white;
+            color: black;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 1px 10px #00000026;
+
+            a:hover {
+        color: rgb(255, 135, 43);
+        
+            }
+        }
+        #header-logo {
+            display: inline-flex;
+            align-items: center;
+            z-index: 10;
+            cursor: pointer;
+
+        } 
+        #header-logo {
+             img {
+            width: 4rem;   
+        }
+         p {
+            font-weight: bold;
+            font-size: 3rem;
+            margin-left: 3rem;
+            display: none;
+            
+        } 
+        }
+        
+        
+        
+        .topnav {
+            display: none;
+        }
+        .topnav {
+            a {
+                color: inherit;
+            font-size: 1rem;
+            text-decoration: none;
+            padding: 1.9rem 2rem;
+            transition: background-color 0.2s ease-in-out;
+        }
+         a:hover {
+            background-color: rgba(255,255,255,0.35)
+        }
+        }
+
+        #nav-mobile {
+            display: inline-block;
+            z-index: 10;
+        }
+#mobile-menu {
+                position: fixed;
+                display: none;
+                flex-flow: column;
+                align-items: center;
+                top: 0;
+                left: 0;
+                background-color: white;
+                width: 100%;
+                height: 100vh;
+                font-size: 2rem;
+                padding-top: 10vh;
+               
+                a {
+                color: black;
+                padding: 2rem 0;
+                text-decoration: none;
+                }
+            }
+        
+}
+
+
+    

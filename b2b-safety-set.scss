@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family:"Gordita-reg","Open Sans","sans serif";
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 0.3;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face{ 
+	font-family: 'Gordita-reg';
+	src: url('https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-regular-webfont.woff2?v=1586459720') format('woff2');
+}
+@font-face{ 
+	font-family: 'Gordita-bold';
+	src: url('https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-bold-webfont.woff2?v=1586459720') format('woff2');
+}
+$primarycolor: #ff6118;
+b, i, a {
+    font-size: inherit;
+}
+
+a {
+    color: #ff9918;
+    &:hover {
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 1055px) {   
+    
+    $footerfontsize: 1.5rem;
+    
+    h1 {
+        font-size: 4.5rem;
+        color: $primarycolor;  
+        
+    }
+   
+    h2 {
+        color: $primarycolor;  
+        font-size: 2.5rem;
+    }
+    h4, p, li{ font-size: 2rem;
+        padding: 0.7rem 0;
+    }    
+    h4 {
+        display: inline;
+        font-weight: bold;
+    }
+
+    li {
+        padding-left: 1rem;
+        
+    }
+
+
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 0 5rem 10vw;
+           
+          h4, p{ font-size: 2rem;}
+
+            img{
+               height: 30rem;
+               width: auto;
+            }
+            #text {
+            padding: 10rem 0rem 0rem 0rem;
+            width: 100%;
+            max-width: 100rem;
+            }
+        }  
+    }
+
+.what-is-it {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+padding: 0rem 5rem 5rem 10vw;
+ 
+#pic {
+    max-width: 40rem;
+}
+#text-zone1 {
+    padding-left: 5rem;
+    
+    width: 50%;
+}
+}
+.upcycling-details {
+    text-align: left;
+    padding: 1rem 10vw;
+    padding-bottom: 5rem;
+   
+        img{
+            align-self: center;
+            width: 90%;
+        }
+    
+}
+.what-next {
+    border-top: 1px solid #9c9c9c;
+    border-bottom: 1px solid #9c9c9c;
+    background-color: #f7f7f7 ;
+    padding: 0 10vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+   
+    div{
+        padding: 2rem 0;
+        a { 
+            text-decoration: none;
+            &:hover {
+                p {color:#ff9918!important;}}
+        }
+        h4 { color: #ff9918;
+            font-size: 1.3rem;
+            font-family: "Gordita-bold";
+
+}
+p {color: rgb(59, 59, 59);
+    font-family: "Gordita-bold";
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+    }
+    #next {
+        text-align: right;
+    }
+
+}
+
+.info-box {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+}
+.info-box-item {
+    border: 1px solid rgb(124, 124, 124);
+    width: 50%;
+    padding: 2rem 3rem;
+    margin: 2rem 0;
+}
+
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1054px) {   
+    $footerfontsize: 1.5rem;
+    
+    h1 {
+        font-size: 4.5rem;
+        color: $primarycolor;  
+        
+    }
+    
+    h2 {
+        color: $primarycolor;  
+        font-size: 2.5rem;
+    }
+    h4 {
+        display: inline;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    h4, p, li{ font-size: 1.5rem;
+        padding: 0.7rem 0;
+    }    
+
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: inline-flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 0 2rem 7rem;
+
+            img{
+               height: 35vw;
+               width: auto;
+               position: absolute;
+               top:6rem;
+               right: 0;
+            }
+            #text {
+            padding: 10rem 0rem 3rem 0rem;
+            width: 45rem;
+            }
+        }  
+    }
+
+.what-is-it {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+padding: 1rem 7rem 3rem 7rem;
+ 
+#pic {
+    max-width: 40rem;
+}
+#text-zone1 {
+    padding-left: 3rem;
+   width: 60%;
+}
+}
+.upcycling-details {
+    text-align: left;
+    padding: 1rem 7rem 5rem 7rem;
+   
+
+    #mobile-pic {
+        display: flex;
+        flex-flow: column nowrap;
+        img{
+            align-self: center;
+            width: 90%;
+        }
+    }
+}
+
+.what-next {
+    border-top: 1px solid #9c9c9c;
+    border-bottom: 1px solid #9c9c9c;
+    background-color: #f7f7f7 ;
+    padding: 0 10vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+   
+    div{
+        padding: 2rem 0;
+        a { 
+            text-decoration: none;
+            &:hover {
+                p {color:#ff9918!important;}}
+        }
+        h4 { color: #ff9918;
+            font-size: 1.3rem;
+            font-family: "Gordita-bold";
+
+}
+p {color: rgb(59, 59, 59);
+    font-family: "Gordita-bold";
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+    }
+    #next {
+        text-align: right;
+    }
+
+}
+.info-box {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+}
+.info-box-item {
+    border: 1px solid rgb(124, 124, 124);
+    width: 50%;
+    padding: 2rem 3rem;
+    margin: 2rem 0;
+}
+}
+
+@media screen and (max-width: 749px), (max-device-width: 749px) {
+    $footerfontsize: 1.5rem;
+    
+    h1 {
+        font-size: 6rem;
+        color: $primarycolor;  
+        
+    }
+    
+    h2 {
+        color: $primarycolor;  
+        font-size: 4rem;
+    }
+    h4 {
+        display: inline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    h4, p, li{ font-size: 2rem;
+        padding: 0.7rem 0;
+    }    
+
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: inline-flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 3rem 2rem 3rem;
+
+            img{
+               height: 20rem;
+               width: auto;
+               position: absolute;
+               top:6rem;
+               right: 0;
+            }
+            #text {
+            padding: 10rem 0rem 3rem 0rem;
+            width: 100%;
+            z-index: 10;
+            }
+        }
+    }
+
+.what-is-it {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+padding: 5rem 3rem 10rem 3rem;
+ 
+#pic {
+   display: none;
+}
+#text-zone1 {
+ padding: 0;   
+ width: 100%;
+
+}
+}
+
+.upcycling-details {
+    text-align: left;
+    padding: 1rem 3rem 3rem 3rem;
+
+   
+
+    #mobile-pic {
+        display: flex;
+        flex-flow: column nowrap;
+        img{
+            align-self: center;
+            width: 90%;
+        }
+    }
+}
+.what-next {
+    border-top: 1px solid #9c9c9c;
+    border-bottom: 1px solid #9c9c9c;
+    background-color: #f7f7f7 ;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+   
+    div{
+        width: 50%;
+        text-align: center;
+        padding: 2rem 0rem;
+        a { 
+            text-decoration: none;
+            &:hover {
+                p {color:#ff9918!important;}}
+        }
+        h4 { color: #ff9918;
+            font-size: 1.5rem;
+            font-family: "Gordita-bold";
+
+}
+p {color: rgb(59, 59, 59);
+    font-family: "Gordita-bold";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+    }
+    #next {
+        border-left: 1px solid #9c9c9c;
+    }
+
+}
+.info-box {
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+.info-box-item {
+    border: 1px solid rgb(124, 124, 124);
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: 2rem 0;
+}
+}

@@ -1,0 +1,147 @@
+<head>
+    <link rel="stylesheet"  href="b2b-delivery.css">
+    <link rel="stylesheet" href="b2b-header-page.css">
+    <link rel="stylesheet" href="b2b-footer.css">
+    <link rel="stylesheet" href="b2b-main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+   </style>
+ </head>
+ <body>
+  <script src="main.js"></script>
+   <div class="front-cover">
+
+
+              
+    {% section 'b2b-header' %}
+
+     
+      
+      
+    <div class="intro">
+    
+    <div id="text">
+       <h1>Delivery & Pick-Up</h1>
+       <h4><br>Coordinating the tenant change each semester shouldn’t feel like rocket science.
+           <br><br>  </h4>
+      <p>
+        Yet the high seasonality of student residences causes disproportionate operational activity during the tenants arrivals and departures.
+        <br><br>Instead, we believe it should be as easy as counting down from 10 and pressing <i>take-off</i>. 
+      </p>>
+   
+     </div>
+     <div id="pic">
+     <img src='https://i.ibb.co/NNWB39W/12.png' alt=''></div>
+    </div>
+    </div>
+    
+
+<div class="what-is-it">
+  <div id="pic"><img src="https://i.ibb.co/DCfswN8/IMG-20200127-140005-new23.jpg" alt='starter kit delivery'></div>
+  <div id="text-zone1">
+     <h2>The operational headache</h2><br>
+   
+     <p>We’ve learned from experience that this operational attention causes struggle. Your staff’s logistical background isn’t their speciality and they’re asked to adapt when their time is needed most.<br><br> We’ve also heard that service you receive is either non-existent or restricted to a minimum. This causes what we call an operational headache.
+
+     </p>
+     </div>
+       
+</div>
+<div class="upcycling-details">
+
+  <h2>Our solution</h2><br>
+<ul>
+  <li><b>Tailored delivery</b><br>Starter Kit takes a new approach with our bespoke delivery service. We establish a tailored plan for each of your residences. The deliveries are not outsourced to other companies and are made by our own team.</li>
+<li><b>Item pick-up</b><br>If your kits have items that are applicable for our upcycling process, our team will pick-up all applicable items during the delivery of the new Starter Kits. These items are then taken to our upcycling facilities to be transformed into brand new ones.</li>
+<li><b>Real-time tracking interface</b><br>Our team prides itself on efficiency and communication. Our real-time kit tracking interface keeps you connected to the delivery progress while our highly scalable and flexible team can deliver up to 1500 kits per day.</li>
+</ul>
+
+<h4 id="special-covid">Special feature during COVID-19:</h4>
+<ul><li>Extra flexibility with your delivery:
+<ul>
+  <li>Easy schedule & reschedule of deliveries at no extra costs*</li>
+<li>Extra flexible cancellation policy*</li>
+</ul>
+</li>
+</ul>
+<p id="footnote">* = Conditions apply</p>
+
+
+<br><br> <p>If they sold operational headache medicine, our delivery service would be the pill.</p>
+
+ <br><br><br><br> <h2>The kit tracking interface</h2><br>
+<img src="https://i.ibb.co/6mY678R/B2-B-Minim-Web-Page-4.png" alt="kit tracking interface">
+ </div>
+
+
+<div class="what-next">
+  <div id="previous">
+     <a href="/pages/housing-org-kits" ><h4>PREVIOUS</h4>
+     <p>THE KITS</p>
+     </a>
+  </div>
+  <div id="next">
+     <a href="/pages/housing-org-upcycling" ><h4>NEXT</h4>
+     <p>UPCYCLING</p>
+     </a>
+  </div>
+</div>
+
+<div class="cta-trial">
+  <div>
+    <h4>Ready to stop the operational headache and start enjoying butter-smooth deliveries?</h4>
+ <span>   
+    <p>Explore how easy a trial can be set up.</p>
+  <a href='/pages/housing-org-get-started'>Get Started</a>
+ </span>
+  </div>
+
+</div>
+<!-- {% section 'b2b-footer' %} -->
+ 
+<script>
+  window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+ if (window.pageYOffset > sticky) {
+   header.classList.add("sticky");
+ } else {
+   header.classList.remove("sticky");
+ }
+}
+
+function openMenu() {
+  console.log("a");
+var  x = document.getElementById("mobile-menu");
+console.log("b");
+
+console.log(x.style.display);
+  if (x.style.display === "flex" ){
+   
+     x.style.display = "none";
+     console.log("c");
+
+  } else {
+   
+     x.style.display = "flex";
+    
+
+     console.log("d");
+
+  }
+}
+
+</script>
+</body>

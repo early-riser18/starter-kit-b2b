@@ -1,0 +1,163 @@
+<head>
+    <link rel="stylesheet"  href="b2b-kits.css">
+    <link rel="stylesheet" href="b2b-header-page.css">
+    <link rel="stylesheet" href="b2b-footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+   </style>
+ </head>
+ <body>
+  <script src="main.js"></script>
+   <div class="front-cover">
+   
+      {% section 'b2b-header' %}
+
+     <div class="intro">
+     
+      <div id="text">
+         <h1>Our Kits</h1>
+         <h4><br>Customized to your tenants' needs.<br><br>  </h4>
+         <p>The flow of international students is on the rise. A new generation Z is entering studenthood and is more demanding than ever.
+      <br><br>    Organizations are gearing up and getting ready to offer more services for a fuller experience.
+        </p>  <br> 
+        <h4>You’re being asked to adapt, and we want to show you how.</h4>
+          
+       
+     
+       </div>
+       <div id="pic">
+       <img src='https://i.ibb.co/NNWB39W/12.png' alt=''></div>
+      </div>
+      </div>
+      
+ 
+ <div class="what-is-it">
+    <div id="pic"><img src="https://i.ibb.co/MD3S1qG/IMG-8005-V4-cropped.jpg" alt=''></div>
+    <div id="text-zone1">
+       <h2>Responding to the demand with welcome kits</h2><br>
+      <p> New student accommodations are offering full service, hotel-like experiences with restaurants, housekeeping and social events. To please the customer, you may have tried to keep up, but often at an expense.
+     <br><br>  A common offer is to supply Welcome Kits, a great choice for the international student. However, this is operationally expensive, time consuming to coordinate, and deviates efforts from your core business. <br><br>Starter Kit simplifies the process for you.
+       </p>
+     
+ 
+   
+    </div>
+         
+ </div>
+ <div class="upcycling-details">
+     <h2>Our solution</h2><br>
+  <p>We offer wholesale kits to student residencies and perfectly adapted to your needs. Our kits are fully customizable with items for your tenants’ bedroom, kitchen, bathroom and more. 
+     <h4>Features include:</h4>
+ </p>
+     <ul>
+         <li>50+ product range with a variety of qualities</li>
+             <li>High quality bedding to withstand the test of time</li>
+            <li>Fully customizable box to wow your tenants</li> 
+     </ul>
+
+     <h4 id="special-covid">Special feature during COVID-19:</h4>
+     <ul><li><a href="/pages/safety-first-set">#Safetyfirst Set</a> included in each kit for free. Contains:
+    <ul>
+       <li>10 Disposable Face Masks EN 14683 - 3 Ply</li>
+       <li>1 Bottle of Hand Sanitizers (100ml)</li>
+    </ul>
+    </li>
+    </ul>
+
+
+ <p>Starter Kit further simplifies your life by including, at no extra cost: </p>
+ <ul>
+    <li>Tailored in-room Kit <a href="/pages/housing-org-delivery" >Delivery</a></li>
+    <li><a href="/pages/housing-org-delivery" >Pick-up</a> service for old linen and other items</li>
+    <li>Linen <a href="/pages/housing-org-upcycling" >Upcycling</a> process to help you go green</li>
+    <li><a href="/pages/housing-org-student-buddy" >Student Buddy</a> customer service to enhance the student experience</li>
+ 
+ </ul>    
+ 
+
+
+
+
+ <h2>5 steps to create your kit</h2><br>
+ 
+     <ol>
+         <li>Browse our <a href="#online-catalogue" >online catalogue</a> to create your kit.</li>
+             <li>Choose from our pre-selected sets or start from scratch.</li>
+            <li>Use our team's advice and past data on which products tenants prefer.</li>
+            <li>Create your perfect box design.</li>
+            <li>Your Starter Kit is ready to make your tenants happy!</li> 
+     </ol>
+    <p><br>Get started right away by customizing your very own Starter Kit with our online catalogue.
+        <br><br> </p>
+     <iframe id="online-catalogue" src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f7n3g9nh6" width="100%" height="685" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+ </div>
+ 
+ <div class="what-next">
+    <div id="previous">
+       <a href="/pages/housing-org-student-buddy" ><h4>PREVIOUS</h4>
+       <p>STUDENT BUDDY</p>
+       </a>
+    </div>
+    <div id="next">
+       <a href="/pages/housing-org-delivery" ><h4>NEXT</h4>
+       <p>DELIVERY & PICK-UP</p>
+       </a>
+    </div>
+ </div>
+
+ <div class="cta-trial">
+   <div>
+     <h4>Ready to stop providing the bare minimum and start offering tenants the ultimate convenience experience?</h4>
+  <span>   
+     <p>Explore how easy a trial can be set up.</p>
+   <a href='/pages/housing-org-get-started'>Get Started</a>
+  </span>
+   </div>
+ 
+ </div>
+
+ {% section 'b2b-footer' %}
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+ if (window.pageYOffset > sticky) {
+   header.classList.add("sticky");
+ } else {
+   header.classList.remove("sticky");
+ }
+}
+
+function openMenu() {
+  console.log("a");
+var  x = document.getElementById("mobile-menu");
+console.log("b");
+
+console.log(x.style.display);
+  if (x.style.display === "flex" ){
+   
+     x.style.display = "none";
+     console.log("c");
+
+  } else {
+   
+     x.style.display = "flex";
+    
+
+     console.log("d");
+
+  }
+}
+</script>
+</body>

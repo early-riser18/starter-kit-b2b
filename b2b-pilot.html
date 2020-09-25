@@ -1,0 +1,192 @@
+<head>
+    <link rel="stylesheet"  href="b2b-pilot.css">
+    <link rel="stylesheet"  href="b2b-main.css">
+
+    <link rel="stylesheet" href="b2b-header-home.css">
+    <link rel="stylesheet" href="b2b-footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+ </head>
+ <body>
+    <script src="main.js"></script>
+    <div class="front-cover">
+ <!--      {% section 'b2b-header' %} -->
+       <div class="cover-text">
+          <h1>Try Starter Kits' solutions today, decide later.
+             <br>No strings attached.
+          </h1>
+          <h2>Choose a pilot size that suits you.</h2>
+         <br> <a href="#contacting">CONTACT FORM</a>
+       </div>
+    </div>
+    <div class="cmn-text">
+       <p>
+          During the current pandemic and more than ever, you need to show unprecedented amounts of flexibility,
+          support and care to your tenants. 
+          <br>Is your organization prepared for that? 
+       </p>
+       <p id="highlight">Starter Kit could be the solution for you</p>
+       <br>       <p>Our adapted offer in response to COVID-19 includes:</p>
+
+    </div>
+
+    <div class="main-value">
+        
+       <div>
+          <span id="hg-text">
+             <p></p>
+             <h2>CONVENIENCE</h2>
+          </span>
+          <span class='description'>
+             <p>Show how much you care for your tenants by providing them with customized starter kits for a stress-free move-in.</p>
+             <ul>
+                <li>Access to 50+ items, customizable on request</li>
+                <li>Design your own branded box</li>
+                <li>COVID-19 measures - 10 faces masks & hand sanitizer in each kit for free</li>
+             </ul>
+          </span>
+          <span id="overlay">
+              <a href="" >Discover the Kits</a>
+          </span>
+       </div>
+       <div>
+          <span id="hg-text">
+            
+             <h2>FLEXIBILITY</h2>
+          </span>
+          <span class='description'>
+             <p>Adjust to the unprecedented variability in tenants' arrival and reach new levels of flexibility with our tailored delivery services.</p>
+             <ul>
+                <li>Easy schedule and re-schedule of deliveries</li>
+                <li>Remove the hassle - Just 1 contact person from order until delivery</li>
+             </ul>
+          </span>
+          <span id="overlay">
+            <a href="" >Discover the Delivery</a>
+        </span>
+       </div>
+       <div>
+          <span id="hg-text">
+         
+             <h2>SUPPORT</h2>
+          </span>
+          <span class='description'>
+             <p>Prepare for the overwhelming flow of questions your tenants will have during this period and give them extra support with our Student Buddies.</p>
+             <ul>
+                <li>Temporary customer support during peak season available</li>
+                <li>Currently available in 8 languages (English, Mandarin, German, Italian, Spanish, French, Portuguese and Dutch)</li>
+             </ul>
+          </span>
+          <span id="overlay">
+            <a href="" >Discover the Student Buddy</a>
+        </span>
+       </div>
+       <div>
+          <span id="hg-text">
+           
+             <h2>WASTE-FREE</h2>
+          </span>
+          <span class='description'>
+             <p>Provide your tenants with carbon-neutral beddings with no added costs or logistics and overcome the challenge of Going Green.</p>
+             <ul>
+                <li>Discover our unique-in-the-market Upcycling solution</li>
+                <li>Reduce your tenants linens waste by up to 100%</li>
+             </ul>
+          </span>
+          <span id="overlay">
+            <a href="" >Discover the Upcycling</a>
+        </span>
+       </div>
+    </div>
+    <div class="cmn-text1">
+        <p>Save time, money and even the planet by working with Starter Kit during peak move-in seasons.</p>
+    </div>
+
+    <div class="guarantee">
+       <span id="title">
+        <img src="https://i.ibb.co/JHkQ1PL/safe-icon.png" alt=''>   
+        <h4>Your risk-free guarantees for this pilot:</h4>
+        </span>
+        <span >
+       <div id="divider"> <ul>
+        <li>Highly flexible cancellation and order modification policies.</li>  
+        <li>You determine how many kits you want to start with.</li>  
+        </ul></div>
+        <div><ul>
+        <li>A solid supply chain that ensures you get delivered on time.</li>
+        <li>Love it or leave it - No strings attached</li>
+        </ul></div>
+</span>
+    </div>
+    <div id="contacting"></div>
+    <div class="contact-form">
+      [ndnapps-contactform]
+      </div>
+      <div class="partners">
+         <div id="title">
+       <span>
+         <p>We're working with</p>
+       </span>
+       </div>
+       <div id='logos'>
+       
+       <span>
+      <a href="https://www.dekey.nl/" target="_blank"><img src="https://i.ibb.co/vBd8DhH/De-Key-Logo.png" loading="lazy" alt="De key logo"></a>
+       </span>
+       <span>
+          <a href="https://www.esn-nl.org/" target="_blank"><img src=" https://i.ibb.co/NTD6dm4/new-ESN-logo.png" loading="lazy" alt=""></a>
+      </span>
+      <span id="tmobile">
+       <a href="https://www.t-mobile.nl/" target="_blank"><img src="https://i.ibb.co/djt7Nm7/t-mobile-logo.png" loading="lazy" alt="" style="height: 7rem!important;
+          width: auto;"></a>
+      </span>
+      
+      </div>
+      </div>
+
+
+
+
+    {% section 'b2b-footer' %}
+    <script>
+       window.onscroll = function() {myFunction()};
+       
+       // Get the header
+       var header = document.getElementById("myHeader");
+       
+       // Get the offset position of the navbar
+       var sticky = header.offsetTop;
+       
+       // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+       function myFunction() {
+       if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+       } else {
+        header.classList.remove("sticky");
+       }
+       }
+       
+       function openMenu() {
+       console.log("a");
+       var  x = document.getElementById("mobile-menu");
+       console.log("b");
+       
+       console.log(x.style.display);
+       if (x.style.display === "flex" ){
+        
+          x.style.display = "none";
+          console.log("c");
+       
+       } else {
+        
+          x.style.display = "flex";
+         
+       
+          console.log("d");
+       
+       }
+       }
+    </script>
+ </body>

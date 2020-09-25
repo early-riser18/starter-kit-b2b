@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family:"Gordita-reg","Open Sans","sans serif";
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 0.3;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face{ 
+	font-family: 'Gordita-reg';
+	src: url('https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-regular-webfont.woff2?v=1586459720') format('woff2');
+}
+@font-face{ 
+	font-family: 'Gordita-bold';
+	src: url('https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-bold-webfont.woff2?v=1586459720') format('woff2');
+}
+$upcyclingcolor: #ff6d18;
+$footerfontsize: 1.5rem;
+
+@media screen and (min-width: 1055px) {   
+    
+    
+    h1 {
+        font-size: 4.5rem;
+        color: $upcyclingcolor;  
+        
+    }
+
+    a {
+        font-size: 2rem;
+        color: #ff6d18;
+    }
+    
+    h2 {
+        color: $upcyclingcolor;  
+        font-size: 2.5rem;
+    }
+    h4 {
+        display: inline;
+        font-weight: bold;
+      
+    }
+    p, h4, li {  font-size: 2rem;}
+    ul {padding-left: 2rem;}
+    li {    line-height: 1.5;
+        
+        
+       
+    }
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: inline-flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 0 5rem 10vw;
+           
+
+            img{
+               height: 30rem;
+               width: auto;
+            }
+            #text {
+            padding: 10rem 0rem 0rem 0rem;
+            width: 100%;
+            }
+        }  
+    }
+
+    .measures {
+        padding: 0rem 10vw 2rem 10vw;
+        width: 120rem;
+        h4 {
+            color: #ff6d18;
+        }
+ #m {
+    padding-bottom: 5rem;
+ }
+
+    }
+
+
+    #drawing {
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 2rem 10vw;
+        img{
+            align-self: center;
+            width: 100%;
+            height: 100%;
+         
+
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1054px) {   
+   
+    
+    h1 {
+        font-size: 4.5rem;
+        color: $upcyclingcolor;  
+        
+    }
+    a {
+        font-size: 2rem;
+        color: #ff6d18;
+    }
+    h2 {
+        color: $upcyclingcolor;  
+        font-size: 2.5rem;
+    }
+    h4 {
+        display: inline;
+        font-weight: bold;
+    }
+    p, a, li, h4 { font-size: 2rem;
+    }
+    ul {
+        padding-left: 2rem;
+    }
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: inline-flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 0 7rem 10vw;
+
+            img{
+               height: 35vw;
+               width: auto;
+               position: absolute;
+               top:6rem;
+               right: 0;
+            }
+            #text {
+            padding: 10rem 0rem 0rem 0rem;
+            width: 55rem;
+            }
+        }  
+    }
+    .measures {
+        padding: 0rem 0 2rem 10rem;
+        width: 80rem;
+        h4 {color: #ff6d18}
+ #m {
+    padding-bottom: 5rem;
+ }
+    }
+
+    #drawing {
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 1rem 0;
+        img{
+            align-self: center;
+            width: 100%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 749px) {
+ 
+    h1 {
+        font-size: 6rem;
+        color: $upcyclingcolor;  
+        
+    }
+    
+    h2 {
+        color: $upcyclingcolor;  
+        font-size: 2.5rem;
+    }
+
+    a {
+        font-size: 2rem;
+        color: #ff6d18;
+        font-weight: bold;
+    }
+
+    h4 {
+        display: inline;
+        font-weight: bold;
+        color: #ff6d18;
+        font-size: 2rem;
+    }
+    p, a, li {    line-height: 1.5;
+
+        font-size: 2rem;
+    }
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: inline-flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 3rem 2rem 3rem;
+
+            img{
+               height: 20rem;
+               width: auto;
+               position: absolute;
+               top:6rem;
+               right: 0;
+            }
+            #text {
+            padding: 10rem 0rem 3rem 0rem;
+            width: 100%;
+            }
+        }  
+    }
+
+
+    .measures {
+        padding: 5rem 3rem;
+        font-size: 1.5rem;
+        width: 100%;
+ #m {
+    padding-bottom: 10rem;
+    li {
+    list-style: none;    
+    }
+ }
+    }
+    #drawing {
+        display: flex;
+        flex-flow: column nowrap;
+        img{
+            align-self: center;
+            width: 100%;
+          
+
+        }
+    }
+}
+
+@media screen and (max-device-width: 749px) {
+ 
+    h1 {
+        font-size: 4rem;
+        color: $upcyclingcolor;  
+        
+    }
+    
+    h2 {
+        color: $upcyclingcolor;  
+        font-size: 2.5rem;
+    }
+
+    a {
+        font-size: 2rem;
+        color: #ff6d18;
+        font-weight: bold;
+    }
+
+    h4 {
+        display: inline;
+        font-weight: bold;
+        color: #ff6d18;
+        font-size: 2rem;
+    }
+    p, a, li {    line-height: 1.5;
+
+        font-size: 2rem;
+    }
+    img {
+        width: 100%;
+        height: auto;
+      }
+      .front-cover {
+        position: relative;
+        top:0;
+        left:0;
+        text-align: left;
+        color: black;
+        
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro {
+            display: inline-flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 5rem 3rem 2rem 3rem;
+
+            img{
+               height: 20rem;
+               width: auto;
+               position: absolute;
+               top:6rem;
+               right: 0;
+            }
+            #text {
+            padding: 10rem 0rem 3rem 0rem;
+            width: 100%;
+            }
+        }  
+    }
+
+
+    .measures {
+        padding: 5rem 3rem;
+        font-size: 1.5rem;
+        width: 100%;
+ #m {
+    padding-bottom: 10rem;
+    li {
+    list-style: none;    
+    }
+ }
+    }
+    #drawing {
+        display: flex;
+        flex-flow: column nowrap;
+        img{
+            align-self: center;
+            width: 100%;
+          
+
+        }
+    }
+}
+
