@@ -1,0 +1,423 @@
+@media screen and (min-width: 1055px) {
+  h1 {
+    font-size: 4.5rem;
+    color: #659b5e;
+  }
+  h2 {
+    color: #659b5e;
+    font-size: 2.5rem;
+  }
+  p, h4, li {
+    font-size: 2rem;
+  }
+  ul {
+    padding: 2rem;
+  }
+  li {
+    line-height: 1.5;
+    padding: 0.5rem 0;
+  }
+  a {
+    font-size: inherit;
+    color: #ff9918;
+  }
+  a:hover {
+    font-weight: bold;
+  }
+  h4 {
+    display: inline;
+    font-weight: bold;
+  }
+  p {
+    line-height: 1.5;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .front-cover {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+  }
+  .front-cover img {
+    width: 100%;
+    height: auto;
+  }
+  .front-cover .intro {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 0 5rem 10vw;
+  }
+  .front-cover .intro img {
+    height: 30rem;
+    width: auto;
+  }
+  .front-cover .intro #text {
+    padding: 10rem 0rem 0rem 0rem;
+    width: 100%;
+  }
+  .what-is-upcycling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0rem 10vw 3rem 10vw;
+  }
+  .what-is-upcycling #pic {
+    max-width: 40rem;
+  }
+  .what-is-upcycling #text-zone1 {
+    padding-left: 5rem;
+    width: 55%;
+  }
+  .upcycling-details {
+    text-align: left;
+    padding: 1rem 15vw 3rem 10vw;
+  }
+  .upcycling-details #text-zone2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .upcycling-details #text-zone2 #step {
+    width: 47%;
+    max-width: 70rem;
+    padding: 5rem 0;
+    padding-right: 5rem;
+  }
+  .upcycling-details #text-zone2 #step h4 {
+    position: relative;
+    top: -1.5rem;
+    left: 0;
+    color: #027b84;
+    font-size: 2.5rem;
+  }
+  .upcycling-details #text-zone2 #step img {
+    width: auto;
+    height: 7rem;
+    padding-right: 3rem;
+  }
+  .upcycling-details #drawing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .upcycling-details #drawing img {
+    padding: 2rem 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1054px) {
+  h1 {
+    font-size: 4.5rem;
+    color: #659b5e;
+  }
+  h2 {
+    color: #659b5e;
+    font-size: 2.5rem;
+  }
+  p, h4, li {
+    font-size: 1.5rem;
+  }
+  ul {
+    padding: 2rem;
+  }
+  li {
+    line-height: 1.5;
+    padding: 0.5rem 0;
+  }
+  a {
+    font-size: inherit;
+    color: #ff9918;
+  }
+  a:hover {
+    font-weight: bold;
+  }
+  h4 {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .front-cover {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+  }
+  .front-cover img {
+    width: 100%;
+    height: auto;
+  }
+  .front-cover .intro {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 0 2rem 7rem;
+  }
+  .front-cover .intro img {
+    height: 35vw;
+    width: auto;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+  }
+  .front-cover .intro #text {
+    padding: 10rem 0rem 3rem 0rem;
+    width: 45rem;
+  }
+  .what-is-upcycling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 1rem 7rem 3rem 7rem;
+  }
+  .what-is-upcycling #pic {
+    max-width: 40rem;
+  }
+  .what-is-upcycling #text-zone1 {
+    padding-left: 3rem;
+    width: 60%;
+  }
+  .upcycling-details {
+    text-align: left;
+    padding: 1rem 7rem 3rem 7rem;
+  }
+  .upcycling-details #text-zone2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .upcycling-details #text-zone2 #step {
+    padding: 5rem 0;
+    padding-right: 2rem;
+    width: 45%;
+  }
+  .upcycling-details #text-zone2 #step h4 {
+    position: relative;
+    top: -1.5rem;
+    left: 0;
+    color: #027b84;
+    font-size: 2.5rem;
+  }
+  .upcycling-details #text-zone2 #step img {
+    width: auto;
+    height: 7rem;
+    padding-right: 3rem;
+  }
+  .upcycling-details #drawing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .upcycling-details #drawing img {
+    padding-top: 3rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 749px), (max-device-width: 749px) {
+  h1 {
+    font-size: 6rem;
+    color: #659b5e;
+  }
+  h2 {
+    color: #659b5e;
+    font-size: 4rem;
+  }
+  h4 {
+    display: inline;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  p, a, li {
+    line-height: 1.5;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+  }
+  ul {
+    padding: 4rem 2rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .front-cover {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+  }
+  .front-cover img {
+    width: 100%;
+    height: auto;
+  }
+  .front-cover .intro {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 3rem 2rem 3rem;
+  }
+  .front-cover .intro img {
+    height: 20rem;
+    width: auto;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+  }
+  .front-cover .intro #text {
+    padding: 10rem 0rem 3rem 0rem;
+    width: 100%;
+  }
+  .what-is-upcycling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 15rem 3rem 3rem 3rem;
+  }
+  .what-is-upcycling #pic {
+    display: none;
+  }
+  .what-is-upcycling #text-zone1 {
+    padding: 0;
+    width: 100%;
+  }
+  .upcycling-details {
+    text-align: left;
+    padding: 15rem 3rem 3rem 3rem;
+  }
+  .upcycling-details #text-zone2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .upcycling-details #text-zone2 #step {
+    padding: 7rem 0;
+    width: 100%;
+  }
+  .upcycling-details #text-zone2 #step h4 {
+    position: relative;
+    top: -1.5rem;
+    left: 0;
+    color: #027b84;
+    font-size: 3rem;
+  }
+  .upcycling-details #text-zone2 #step img {
+    width: auto;
+    height: 10rem;
+    padding-right: 3rem;
+  }
+  .upcycling-details #drawing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 15rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .upcycling-details #drawing img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=upcycling.css.map */

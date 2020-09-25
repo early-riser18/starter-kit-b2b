@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gordita-reg", "Open Sans", Sans-Serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.5;
+  letter-spacing: 0.3;
+  font-size: 62.5%;
+}
+
+font {
+  font-size: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Gordita-reg';
+  src: url("https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-regular-webfont.woff2?v=1586459720") format("woff2");
+}
+
+@font-face {
+  font-family: 'Gordita-bold';
+  src: url("https://cdn.shopify.com/s/files/1/0018/0210/8985/files/gordita-bold-webfont.woff2?v=1586459720") format("woff2");
+}
+
+/******* Footer nav bar product/service page *******/
+.what-next {
+  border-top: 1px solid #9c9c9c;
+  border-bottom: 1px solid #9c9c9c;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.what-next div a {
+  text-decoration: none;
+}
+
+.what-next div a:hover p {
+  color: #ff9918 !important;
+}
+
+.what-next div h4 {
+  color: #ff9918;
+  font-family: "Gordita-bold";
+}
+
+.what-next div p {
+  color: #3b3b3b;
+  font-family: "Gordita-bold";
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 750px) {
+  .what-next {
+    padding: 0 10vw;
+  }
+  .what-next div {
+    padding: 2rem 0;
+  }
+  .what-next h4 {
+    font-size: 1.3rem;
+  }
+  .what-next #next {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 749px), (max-device-width: 749px) {
+  .what-next {
+    padding: 0 0.5rem;
+  }
+  .what-next div {
+    width: 50%;
+    text-align: center;
+    padding: 2rem 0rem;
+  }
+  .what-next h4 {
+    font-size: 1.1rem;
+  }
+  .what-next #next {
+    border-left: 1px solid #9c9c9c;
+  }
+}
+
+.cta-trial {
+  padding: 4rem 0;
+}
+
+.cta-trial div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 3rem;
+  background-color: #f9f9f9;
+  max-width: 60%;
+  margin: 0 auto;
+  border-left: 5px solid #ff9918;
+  -webkit-box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+          box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+  min-width: 70rem;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.cta-trial div:hover {
+  -webkit-box-shadow: 0.1rem 0.5rem 2.5rem #8f8f8fcc;
+          box-shadow: 0.1rem 0.5rem 2.5rem #8f8f8fcc;
+}
+
+.cta-trial div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cta-trial div h4 {
+  color: #027b84;
+  font-size: 2.5rem;
+}
+
+.cta-trial div p {
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+.cta-trial div a {
+  color: white;
+  font-size: 2rem;
+  background-color: #ff9918;
+  text-decoration: none;
+  padding: 1.5rem 0;
+  text-align: center;
+  width: 40%;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 749px), (max-device-width: 749px) {
+  .cta-trial div {
+    min-width: 0;
+    max-width: 90vw;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .cta-trial div span {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .cta-trial div a {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

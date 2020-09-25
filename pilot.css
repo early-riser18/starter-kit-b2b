@@ -1,0 +1,878 @@
+@media screen and (min-width: 1055px) {
+  .front-cover {
+    position: relative;
+    text-align: center;
+    height: 50rem;
+    overflow: hidden;
+    background-image: url(https://i.ibb.co/pKWKLf5/apple-devices-books-business-coffee-572056.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .front-cover img {
+    width: 100%;
+  }
+  .cover-text {
+    position: absolute;
+    top: 40%;
+    left: 10vw;
+    text-align: left;
+  }
+  .cover-text h1 {
+    background-color: rgba(255, 255, 255, 0.888);
+    color: #027b84;
+    font-size: 4rem;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  .cover-text h2 {
+    background-color: rgba(255, 155, 24, 0.848);
+    text-align: left;
+    font-size: 2.5rem;
+    color: white;
+    display: inline;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    position: relative;
+    left: 0;
+    top: 1.5rem;
+    font-weight: normal;
+  }
+  .cover-text a {
+    background-color: #027b84;
+    padding: 0.9rem 1.5rem;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    position: relative;
+    top: 3rem;
+    left: 0;
+  }
+  .cmn-text {
+    font-size: 3rem;
+    text-align: left;
+    margin: 5rem 10vw;
+    margin-bottom: 0;
+    max-width: 60%;
+  }
+  .cmn-text #highlight {
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .cmn-text1 {
+    font-size: 3rem;
+    text-align: left;
+    margin: 5rem 10vw;
+    margin-bottom: 0;
+  }
+  .main-value {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin: 1rem 5vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .main-value div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    position: relative;
+    margin: 2rem;
+    -webkit-box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+            box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+    background-color: #f9f9f9;
+  }
+  .main-value div:hover {
+    cursor: pointer;
+  }
+  .main-value div:hover #overlay {
+    opacity: 0.9;
+  }
+  .main-value div #overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    padding: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ff9918;
+    z-index: 1;
+    text-align: center;
+  }
+  .main-value div #overlay a {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 5rem;
+  }
+  .main-value > :nth-child(1) {
+    border-left: 5px solid #ff9918;
+  }
+  .main-value > :nth-child(2) {
+    border-left: 5px solid #027b84;
+  }
+  .main-value > :nth-child(3) {
+    border-left: 5px solid black;
+  }
+  .main-value > :nth-child(4) {
+    border-left: 5px solid #659b5e;
+  }
+  .main-value #hg-text {
+    padding: 1rem 3rem;
+    color: #027b84;
+    font-size: 2.5rem;
+    background-color: white;
+  }
+  .main-value .description {
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 2rem 3rem;
+    font-size: 2.5rem;
+  }
+  .main-value .description ul {
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+  }
+  .main-value .description ul li {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  .guarantee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    margin: 6rem 10vw;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .guarantee #title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem;
+  }
+  .guarantee #title img {
+    height: 5rem;
+  }
+  .guarantee #title h4 {
+    font-size: 2.5rem;
+    color: #414141;
+    margin-left: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #414141;
+  }
+  .guarantee > :nth-child(2) {
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #414141;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .guarantee > :nth-child(2) div {
+    margin-top: 2rem;
+    padding: 0rem 3rem;
+    padding-left: 6rem;
+  }
+  .guarantee > :nth-child(2) div li {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    list-style-image: url(https://i.ibb.co/PGbWMTj/checkmarkgreen.png);
+  }
+  .guarantee > :nth-child(2) div#divider {
+    border-right: 1px solid #9c9c9c;
+  }
+  .contactus {
+    padding: 3rem 10vw;
+  }
+  .contactus h4 {
+    color: #027b84;
+    font-size: 4rem;
+  }
+  .contact-form {
+    margin: 0 10vw;
+  }
+  p.copyright {
+    display: none !important;
+  }
+  .partners {
+    margin-top: -8rem;
+    padding: 3rem 10vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 100%;
+  }
+  .partners p {
+    font-size: 2rem;
+    color: #027b84;
+    font-weight: bold;
+  }
+  .partners #title {
+    width: 25rem;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    padding-top: 4rem;
+    border-right: 2px solid #e6e6e6;
+    padding-right: 2rem;
+  }
+  .partners #logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 70%;
+    z-index: 9999;
+    background-color: white;
+  }
+  .partners img {
+    height: 11rem;
+    width: auto;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+    transition: -webkit-box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  }
+  .partners img:hover {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(63, 85, 94, 0.185);
+            box-shadow: 0 0.5rem 1rem rgba(63, 85, 94, 0.185);
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1054px) {
+  .front-cover {
+    position: relative;
+    text-align: center;
+    height: 40rem;
+    overflow: hidden;
+    background-image: url(https://i.ibb.co/pKWKLf5/apple-devices-books-business-coffee-572056.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .front-cover img {
+    width: 100%;
+  }
+  .cover-text {
+    position: absolute;
+    top: 40%;
+    left: 10vw;
+    text-align: left;
+  }
+  .cover-text h1 {
+    background-color: rgba(255, 255, 255, 0.888);
+    color: #027b84;
+    font-size: 3rem;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  .cover-text h2 {
+    background-color: rgba(255, 155, 24, 0.848);
+    text-align: left;
+    font-size: 2.5rem;
+    color: white;
+    display: inline;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    position: relative;
+    left: 0;
+    top: 1.5rem;
+    font-weight: normal;
+  }
+  .cover-text a {
+    background-color: #027b84;
+    padding: 0.9rem 1.5rem;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    position: relative;
+    top: 3rem;
+    left: 0;
+  }
+  .cmn-text {
+    font-size: 3rem;
+    text-align: left;
+    margin: 5rem 10vw;
+    margin-bottom: 0;
+  }
+  .cmn-text #highlight {
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .cmn-text1 {
+    font-size: 3rem;
+    text-align: left;
+    margin: 5rem 10vw;
+    margin-bottom: 0;
+  }
+  .main-value {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin: 1rem 5vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .main-value div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    position: relative;
+    margin: 2rem;
+    -webkit-box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+            box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+    background-color: #f9f9f9;
+  }
+  .main-value div:hover {
+    cursor: pointer;
+  }
+  .main-value div:hover #overlay {
+    opacity: 0.9;
+  }
+  .main-value div #overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    padding: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ff9918;
+    z-index: 1;
+    text-align: center;
+  }
+  .main-value div #overlay a {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 5rem;
+  }
+  .main-value > :nth-child(1) {
+    border-left: 5px solid #ff9918;
+  }
+  .main-value > :nth-child(2) {
+    border-left: 5px solid #027b84;
+  }
+  .main-value > :nth-child(3) {
+    border-left: 5px solid black;
+  }
+  .main-value > :nth-child(4) {
+    border-left: 5px solid #659b5e;
+  }
+  .main-value #hg-text {
+    padding: 1rem 3rem;
+    color: #027b84;
+    font-size: 2.5rem;
+    background-color: white;
+  }
+  .main-value .description {
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 2rem 3rem;
+    font-size: 2.5rem;
+  }
+  .main-value .description ul {
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+  }
+  .main-value .description ul li {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  .guarantee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    margin: 6rem 10vw;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .guarantee #title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem;
+  }
+  .guarantee #title img {
+    height: 5rem;
+  }
+  .guarantee #title h4 {
+    font-size: 2.5rem;
+    color: #414141;
+    margin-left: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #414141;
+  }
+  .guarantee > :nth-child(2) {
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #414141;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .guarantee > :nth-child(2) div {
+    margin-top: 2rem;
+    padding: 0rem 3rem;
+    padding-left: 6rem;
+  }
+  .guarantee > :nth-child(2) div li {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    list-style-image: url(https://i.ibb.co/PGbWMTj/checkmarkgreen.png);
+  }
+  .guarantee > :nth-child(2) div#divider {
+    border-right: 1px solid #9c9c9c;
+  }
+  .contact-form {
+    margin: 0 10vw;
+  }
+  p.copyright {
+    display: none !important;
+  }
+  .partners {
+    padding: 2rem 7rem;
+    margin-top: -6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 100%;
+  }
+  .partners p {
+    font-size: 2rem;
+    color: #027b84;
+    font-weight: bold;
+  }
+  .partners #title {
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    text-align: center;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2rem;
+    color: #027b84;
+    font-weight: bold;
+    z-index: 9999;
+    background-color: white;
+  }
+  .partners #logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3rem 0;
+    width: 100%;
+    max-width: 90rem;
+  }
+  .partners img {
+    height: 11rem;
+    width: auto;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+    transition: -webkit-box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  }
+  .partners img:hover {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(63, 85, 94, 0.185);
+            box-shadow: 0 0.5rem 1rem rgba(63, 85, 94, 0.185);
+  }
+}
+
+@media screen and (max-width: 749px), (max-device-width: 749px) {
+  .front-cover {
+    position: relative;
+    text-align: center;
+    height: 40rem;
+    overflow: hidden;
+    background-image: url(https://i.ibb.co/pKWKLf5/apple-devices-books-business-coffee-572056.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .front-cover img {
+    width: 100%;
+  }
+  .cover-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    padding: 2vw;
+    text-align: center;
+  }
+  .cover-text h1 {
+    background-color: rgba(255, 255, 255, 0.888);
+    color: #027b84;
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+  .cover-text h2 {
+    background-color: rgba(255, 155, 24, 0.848);
+    font-size: 2rem;
+    color: white;
+    display: inline;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    position: relative;
+    left: 0;
+    top: 1.5rem;
+    font-weight: normal;
+  }
+  .cover-text a {
+    background-color: #027b84;
+    padding: 0.9rem 1.5rem;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    position: relative;
+    top: 3rem;
+    left: 0;
+  }
+  .cmn-text {
+    font-size: 3rem;
+    text-align: left;
+    margin: 3rem 2vw;
+    margin-bottom: 0;
+  }
+  .cmn-text #highlight {
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .cmn-text1 {
+    font-size: 3rem;
+    text-align: left;
+    margin: 3rem 2vw;
+    margin-bottom: 0;
+  }
+  .main-value {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    margin: 1rem 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .main-value div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    position: relative;
+    margin: 2rem 1rem;
+    -webkit-box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+            box-shadow: 0.1rem 0.5rem 1rem #8f8f8f93;
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+    background-color: #f9f9f9;
+  }
+  .main-value div:hover {
+    cursor: pointer;
+  }
+  .main-value div:hover #overlay {
+    opacity: 0.9;
+  }
+  .main-value div #overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    padding: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ff9918;
+    z-index: 1;
+    text-align: center;
+  }
+  .main-value div #overlay a {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 5rem;
+  }
+  .main-value > :nth-child(1) {
+    border-left: 5px solid #ff9918;
+  }
+  .main-value > :nth-child(2) {
+    border-left: 5px solid #027b84;
+  }
+  .main-value > :nth-child(3) {
+    border-left: 5px solid black;
+  }
+  .main-value > :nth-child(4) {
+    border-left: 5px solid #659b5e;
+  }
+  .main-value #hg-text {
+    padding: 1rem 3rem;
+    color: #027b84;
+    font-size: 3rem;
+    background-color: white;
+  }
+  .main-value .description {
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 2rem;
+    font-size: 3rem;
+  }
+  .main-value .description ul {
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+  }
+  .main-value .description ul li {
+    padding: 0.5rem 0;
+    font-size: 1.9rem;
+  }
+  .guarantee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    margin: 5rem 2vw;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .guarantee #title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem 0;
+  }
+  .guarantee #title img {
+    height: 6rem;
+  }
+  .guarantee #title h4 {
+    font-size: 2.5rem;
+    color: #414141;
+    margin-left: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #414141;
+  }
+  .guarantee > :nth-child(2) {
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #414141;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .guarantee > :nth-child(2) div {
+    padding: 0rem 3rem;
+    padding-left: 5rem;
+  }
+  .guarantee > :nth-child(2) div li {
+    padding: 1rem;
+    font-size: 1.5rem;
+    list-style-image: url(https://i.ibb.co/PGbWMTj/checkmarkgreen.png);
+  }
+  .contact-form {
+    margin: 0 2rem;
+  }
+  p.copyright {
+    display: none !important;
+  }
+  .partners {
+    padding: 2rem 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 100%;
+  }
+  .partners p {
+    font-size: 2.5rem;
+    color: #027b84;
+    font-weight: bold;
+  }
+  .partners #title {
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    text-align: center;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2rem;
+    z-index: 9999;
+    background-color: white;
+    margin-top: -6rem;
+  }
+  .partners #logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding-top: 3rem;
+  }
+  .partners #logos :nth-child(3) {
+    display: none;
+  }
+  .partners img {
+    height: 17vw;
+    width: auto;
+    margin: 1rem;
+  }
+}
+/*# sourceMappingURL=pilot.css.map */
