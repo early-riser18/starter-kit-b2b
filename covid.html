@@ -1,42 +1,14 @@
 <head>
+   <script src="head.js"></script>
     <link rel="stylesheet"  href="covid.css">
-    <link rel="stylesheet" href="header-page.css">
-    <link rel="stylesheet" href="footer.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-   </style>
+    <title>Covid-19 Measures - Starter Kit</title>
 </head>
+
 <body>
    <script src="main.js"></script>
    <div class="front-cover">
-       <div class="header" id="myHeader">
-        <span id="header-logo">
-           <img src="https://i.ibb.co/n36Xx6v/Logo-HD-transparent.png" alt="" height="100%">
-           <p>Starter Kit</p>
-        </span>
-        <nav>
-           <div class="topnav">
-          <a href="/pages/index.html">Home</a>
-         <a href="/pages/housing-org-kits">The Kits</a>
-         <a href="/pages/housing-org-delivery">Delivery</a>
-         <a href="/pages/housing-org-upcycling">Upcycling</a>
-         <a href="/pages/housing-org-student-buddy">Student Buddy</a>
-         <a href="/pages/housing-org-about-us">About</a>
-           </div>
-        </nav>
-       <nav id="nav-mobile"><a class="mobile-menu-btn"  onclick="openMenu()"><p>MENU</p></a>
-</nav>
-        <div id="mobile-menu">
-     <a href="/pages/index.html">Home</a>
-         <a href="/pages/housing-org-kits">The Kits</a>
-         <a href="/pages/housing-org-delivery">Delivery</a>
-         <a href="/pages/housing-org-upcycling">Upcycling</a>
-         <a href="/pages/housing-org-student-buddy">Student Buddy</a>
-         <a href="/pages/housing-org-about-us">About</a>
-        </div>
-        
-     </div>
+      <script src="/header-page.js"></script>
+
      
       <div class="intro">
          <div id="text">
@@ -88,90 +60,6 @@
       <img src="https://i.ibb.co/cLkj13k/fusion-medical-animation-rnr8-D3-FNUNY-unsplash.jpg" alt="">
   </div>
   
-  footer>
-  <div class="subfooter">
-
-  <div class="main-links">
-    
-  <div class="service">
-     <h1>Services</h1>
-   <ul>
-        <li>  <a href="/index.html">Home</a>         </li>
-        <li> <a href="/kits.html">The Kits</a>         </li>
-        <li><a href="/delivery.html">Delivery</a>         </li>
-        <li><a href="/upcycling.html">Upcycling</a></li>
-        <li>  <a href="/studentbuddy.html">Student Buddy</a></li>
-       <li><a href="/about-us.html">About</a></li>
-     </ul>
-    
-   
-  </div>
-  <div class='contact'>
-     <h1>Get in touch</h1>
-     <ul>
-       <li><a title="Email contact@mystarterkit.nl" href="mailto:contact@mystarterkit.nl" target="_blank">contact@mystarterkit.nl</a></li>
-       <li><a title="Email people@mystarterkit.nl" href="mailto:people@mystarterkit.nl"  target="_blank">people@mystarterkit.nl</a></li>
-       <li><a title="Call Starter Kit" href="tel:+31638280608" >06 38 28 06 08</a></li>
-       <li>KVK Nummer: 71076182</li>
-     </ul>
-  </div>
-  <div class="social-media">
-     <h1>Follow us</h1>
-     <div id="social-icon">
-              <span><a title="Follow us on Linkedin" target="_blank" href="https://www.linkedin.com/company/starter-kit/"><img src="https://i.ibb.co/2qBMfRF/t-l-chargement.png" style="width: 100%">
-       </a></span>
-<span><a title="Follow us on Facebook" target="_blank" href="https://www.facebook.com/mystarterkit"><img src="https://i.ibb.co/ncXZKQ4/fb-logo.png" style="width: 100%">
-       </a></span>
-     </div>
-  </div>
-  
-  </div>
-  <div class="end-notes">
-     <p>&copy;2020 Starter Kit</p>
-     <p>Terms of service</p>
-     <p>Privacy policy</p>
-  </div>
-  </div>
-
-</footer>
-   <script>
-      window.onscroll = function() {myFunction()};
-      
-      // Get the header
-      var header = document.getElementById("myHeader");
-      
-      // Get the offset position of the navbar
-      var sticky = header.offsetTop;
-      
-      // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-      function myFunction() {
-      if (window.pageYOffset > sticky) {
-       header.classList.add("sticky");
-      } else {
-       header.classList.remove("sticky");
-      }
-      }
-
-      function openMenu() {
-  console.log("a");
-var  x = document.getElementById("mobile-menu");
-console.log("b");
-
-console.log(x.style.display);
-  if (x.style.display === "flex" ){
-   
-     x.style.display = "none";
-     console.log("c");
-
-  } else {
-   
-     x.style.display = "flex";
-    
-
-     console.log("d");
-
-  }
-}
-
-   </script>
+  <script src="footer.js"></script>
+  <script src='headerScroll.js'></script>
 </body>

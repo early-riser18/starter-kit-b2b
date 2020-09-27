@@ -35,14 +35,14 @@ a {
     width: 100%;
     background-color: #ff6118;
   }
-  .covid-banner h1 {
-    color: white;
+  .covid-banner p {
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
   .covid-banner a {
     text-decoration: none;
+    color: white;
   }
   .cover-text {
     width: 100%;
@@ -579,6 +579,7 @@ a {
   }
   .covid-banner a {
     text-decoration: none;
+    color: white;
   }
   .front-cover {
     position: relative;
@@ -1631,4 +1632,4 @@ a {
     background-color: #ff9918;
   }
 }
-/*# sourceMappingURL=welcome.css.map */
+/*# sourceMappingURL=index.css.map */

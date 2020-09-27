@@ -1,24 +1,17 @@
 <head>
-    <link rel="stylesheet"  href="upcycling.css">
-    <link rel="stylesheet" href="header-page.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="main.css">
+  <script src="/head.js"></script>
+    <link rel="stylesheet"  href="upcycling.css"> 
+     <title>Upcycling - Starter Kit</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-   </style>
  </head>
+
  <body>
   <script src="main.js"></script>
 
 
    <div class="front-cover">
      
-     
-
+    <script src="/header-page.js"></script>
 
   
 
@@ -94,13 +87,13 @@
 <div id="step">
   <img src="https://i.ibb.co/6vzG4xC/delivery-1.png">
   <h4>Delivery</h4>
-  <p> <br>Delivery of a first round of kits at your residency is done while solving what we call “operational headaches”. &nbsp;<a href="/pages/housing-org-delivery">Learn more. </a></p>
+  <p> <br>Delivery of a first round of kits at your residency is done while solving what we call “operational headaches”. &nbsp;<a href="/delivery.html">Learn more. </a></p>
   </div>
 
   <div id="step">
      <img src="https://i.ibb.co/cDFC7Hv/package.png">
      <h4>Pick-Up</h4>
-     <p>  <br>Pick-up of round one is done when tenants move out.<br><br> We simultaneously deliver new kits for no added logistics. &nbsp;<a href="/pages/housing-org-delivery" >Learn more. </a></p>     </div>
+     <p>  <br>Pick-up of round one is done when tenants move out.<br><br> We simultaneously deliver new kits for no added logistics. &nbsp;<a href="/delivery.html" >Learn more. </a></p>     </div>
 <div id="step">
   <img src="https://i.ibb.co/vXTJjMX/eco-factory-1.png">
   <h4>Upcycling</h4>
@@ -123,12 +116,12 @@
 </div>
 <div class="what-next">
   <div id="previous">
-     <a href="/pages/housing-org-delivery" ><h4>PREVIOUS</h4>
+     <a href="/delivery.html" ><h4>PREVIOUS</h4>
      <p>DELIVERY & PICK-UP</p>
      </a>
   </div>
   <div id="next">
-     <a href="/pages/housing-org-student-buddy" ><h4>NEXT</h4>
+     <a href="/studentbuddy.html" ><h4>NEXT</h4>
      <p>STUDENT BUDDY</p>
      </a>
   </div>
@@ -139,50 +132,12 @@
     <h4>Ready to stop the waste and start Going Green with Upcycling?</h4>
  <span>   
     <p>Explore how easy a trial can be set up.</p>
-  <a href='/pages/housing-org-get-started'>Get Started</a>
+  <a href='pilot.html'>Get Started</a>
  </span>
   </div>
 
 </div>
+<script src='footer.js'></script>
 
-
-<script>
-  window.onscroll = function() {myFunction()};
-
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
- if (window.pageYOffset > sticky) {
-   header.classList.add("sticky");
- } else {
-   header.classList.remove("sticky");
- }
-}
-
-function openMenu() {
-  console.log("a");
-var  x = document.getElementById("mobile-menu");
-console.log("b");
-
-console.log(x.style.display);
-  if (x.style.display === "flex" ){
-   
-     x.style.display = "none";
-     console.log("c");
-
-  } else {
-   
-     x.style.display = "flex";
-    
-
-     console.log("d");
-
-  }
-}
-</script>
+<script src='headerScroll.js'></script>
 </body>

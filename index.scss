@@ -42,12 +42,14 @@ text-align: center;
 cursor: pointer;
 width: 100%;
 background-color: #ff6118;
-h1 {
-color: white;
+
+p {
 font-size: 2rem;
 text-transform: uppercase;
 letter-spacing: 1px;}
-a {text-decoration: none;}
+a {text-decoration: none;
+    color: white;
+}
 }
 .cover-text {
 
@@ -507,7 +509,8 @@ a {
             font-size: 1.5rem;
             text-transform: uppercase;
             letter-spacing: 1px;}
-            a {text-decoration: none;}
+            a {text-decoration: none;
+            color: white}
         }
         
     .front-cover {
