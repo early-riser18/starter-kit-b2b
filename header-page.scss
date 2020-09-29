@@ -1,359 +1,322 @@
-
-@media screen and (min-width: 1055px) {
-    .header {
-        padding: 1.5rem 6rem ;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: inline-flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        z-index: 10;
-        color: black;
-        transition: background-color 0.3s ease-in-out;
-
-        a {
-          color: inherit;
-          text-decoration: none;  
-        }
-        nav a:hover {
-            color: rgb(255, 135, 43);
-            
-                }
-        }
-        
-        .sticky {
-            background-color: white;
-            color: black;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            box-shadow: 0 1px 10px #00000026;
-
-            
-        }
-        #header-logo {
-            display: inline-flex;
-            align-items: center;
-            cursor: pointer;
-
-        } 
-        #header-logo {
-             img {
-            width: 6.5rem;   
-        }
-         p {
-            
-            font-weight: bold;
-            font-size: 3rem;
-            margin-left: 1.5rem;
-            
-        } 
-        }
-        
-        
-        
-        .topnav {
-            display: inline-flex;
-        }
-        .topnav {
-            a {
-                color: inherit;
-            font-size: 1.5rem;
-            text-decoration: none;
-            padding: 1.9rem 2rem;
-            transition: background-color 0.2s ease-in-out;
-        }
-         a:hover {
-            background-color: rgba(255,255,255,0.35)
-        }
-        }
-        #nav-mobile, #mobile-menu {
-            
-            display: none;
-          }
-
+.header {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  color: black;
+  transition: background-color 0.3s ease-in-out;
+  padding: 1.5rem 7vw;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: rgb(255, 135, 43);
+  }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1054px) {
-    .header {
-        padding: 2rem 6rem ;
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
-        display: inline-flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        z-index: 10;
-        color: black;
-        transition: background-color 0.3s ease-in-out;
-        a {
-            color: inherit;
-            text-decoration: none;  
-          }
-          nav a:hover {
-              color: rgb(255, 135, 43);
-              
-                  }
-          
-  
+.sticky {
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 1px 10px #00000026;
+}
+#header-logo {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+#header-logo {
+  img {
+    width: 6.5rem;
+  }
+  p {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+  }
+}
+
+.topnav {
+  display: inline-flex;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  a {
+    color: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1.3rem 2rem;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.35);
     }
+  }
 
-
-
- 
- .sticky {
+  .navDropdownBtn {
+    transition: none;
+  }
+  .navDropdownBtn:hover + .navDropdown {
+    display: flex;
+  }
+  .navDropdown {
+    transition: display 0.2s ease-in-out;
     background-color: white;
-    color: black!important;
-    position: fixed!important;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    position: absolute;
+    top: 5.8rem;
+    left: 17%;
+    display: none;
+    box-shadow: 4px 3px 5px #0000001f;
+
+    &:hover {
+      display: flex;
+    }
+  }
+  #ctaPilot {
+    border-radius: 5px;
+    border: 3px solid #ff9918;
+  }
+}
+#nav-mobile,
+#mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1054px) {
+  .sticky {
+    background-color: white;
+    color: black !important;
+    position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
     box-shadow: 0 1px 10px #00000026;
-    ;
-    
-    
-}
+  }
 
-#header-logo {
-  display: inline-flex;
- align-items: center;
- cursor: pointer;
+  #header-logo {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
 
-             img {
-            width: 5vw;   
-        }
-         p {
-           
-            font-weight: bold;
-            font-size: 2.5vw;
-            margin-left: 1.5rem;
-            
-        } 
- }
+    img {
+      width: 5vw;
+    }
+    p {
+      font-weight: bold;
+      margin-left: 1.5rem;
+    }
+  }
 
-
-.topnav {
+  .topnav {
     display: inline-flex;
 
-    a {
-        color: inherit;
-
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding: 1rem 1rem;
-}
- a:hover {
-    background-color: rgba(255,255,255,0.35)
-}
-}
-#nav-mobile, #mobile-menu {
-            
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.35);
+    }
+  }
+  #nav-mobile,
+  #mobile-menu {
     display: none;
   }
 }
+@media screen and (max-width: 840px) {
+    #header-logo p {
+        display: none;
+    }
+}
+@media screen and (max-width: 649px) {
+  .header {
+    padding: 2rem 3rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 10;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: rgb(255, 135, 43);
+    }
+  }
 
-@media screen and (max-width: 749px) {
-    .header {
-        padding: 2rem 3rem ;
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
-        display: inline-flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        z-index: 10;
-        color: black;
-        transition: background-color 0.3s ease-in-out;
-        a {
-            color: inherit;
-            text-decoration: none;  
-          }
-          nav a:hover {
-              color: rgb(255, 135, 43);
-              
-                  }
-          }
-
-
-
- 
- .sticky {
+  .sticky {
     background-color: white;
-    color: black!important;
-    position: fixed!important;
+    color: black !important;
+    position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
     box-shadow: 0 1px 10px #00000026;
-    ;
-    
-    
-}
+  }
 
-#header-logo {
-  display: inline-flex;
- align-items: center;
- cursor: pointer;
+  #header-logo {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
 
-             img {
-            width: 5rem;   
-        }
-         p {
-        
-            font-weight: bold;
-            font-size: 3rem;
-            margin-left: 1.5rem;
-            
-        } 
- }
+    img {
+      width: 5rem;
+    }
+    p {
+      font-weight: bold;
+      font-size: 3rem;
+      margin-left: 1.5rem;
+    }
+  }
 
-
-.topnav {
+  .topnav {
     a {
-        color: inherit;
- display: none;
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding: 1rem 1rem;
+      color: inherit;
+      display: none;
+      font-size: 1.3rem;
+      text-decoration: none;
+      padding: 1rem 1rem;
+    }
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.35);
+    }
+  }
 
-    
-}
- a:hover {
-    background-color: rgba(255,255,255,0.35)
-}
-
-}
-
-#nav-mobile, #mobile-menu {
-            
+  #nav-mobile,
+  #mobile-menu {
     display: none;
   }
 
-.mobile-menu {
+  .mobile-menu {
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     width: 100%;
-    
+
     display: none;
     flex-flow: column wrap;
     text-align: center;
     align-content: center;
     justify-content: space-around;
     background-color: white;
-height: 50rem;
-padding: 7rem 0 10rem 0;
-box-shadow: 1px 1px 20px #00000048;
+    height: 50rem;
+    padding: 7rem 0 10rem 0;
+    box-shadow: 1px 1px 20px #00000048;
     a {
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: black;
-        font-weight: bold;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: black;
+      font-weight: bold;
     }
+  }
 }
 
+@media screen and (max-device-width: 649px) {
+  .header {
+    padding: 1rem 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+  }
 
+  .sticky {
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 10px #00000026;
 
+    a:hover {
+      color: rgb(255, 135, 43);
+    }
+  }
+  #header-logo {
+    display: inline-flex;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+  }
+  #header-logo {
+    img {
+      width: 4rem;
+    }
+    p {
+      font-weight: bold;
+      font-size: 3rem;
+      margin-left: 3rem;
+      display: none;
+    }
+  }
+
+  .topnav {
+    display: none;
+  }
+  .topnav {
+    a {
+      color: inherit;
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 1.9rem 2rem;
+      transition: background-color 0.2s ease-in-out;
+    }
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.35);
+    }
+  }
+
+  #nav-mobile {
+    display: inline-block;
+    z-index: 10;
+  }
+  #mobile-menu {
+    position: fixed;
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+    padding-top: 10vh;
+    color: white;
+
+    a {
+      color: black;
+      padding: 2rem 0;
+      text-decoration: none;
+    }
+    #ctaPilot {
+        background-color: #ff9918;
+        padding: 2rem 1rem;
+        color: white;
+        border-radius: 5px;
+
+    }
+  }
 }
-
-@media screen and (max-device-width: 749px) {
-    .header {
-        padding: 1rem 3rem;
-        position: absolute;
-        top: 0; 
-        left: 0;
-        width: 100%;
-        display: inline-flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 100;
-        color: black;  
-        transition: background-color 0.3s ease-in-out;
-        
-        }
-        
-        .sticky {
-            background-color: white;
-            color: black;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            box-shadow: 0 1px 10px #00000026;
-
-            a:hover {
-        color: rgb(255, 135, 43);
-        
-            }
-        }
-        #header-logo {
-            display: inline-flex;
-            align-items: center;
-            z-index: 10;
-            cursor: pointer;
-
-        } 
-        #header-logo {
-             img {
-            width: 4rem;   
-        }
-         p {
-            font-weight: bold;
-            font-size: 3rem;
-            margin-left: 3rem;
-            display: none;
-            
-        } 
-        }
-        
-        
-        
-        .topnav {
-            display: none;
-        }
-        .topnav {
-            a {
-                color: inherit;
-            font-size: 1rem;
-            text-decoration: none;
-            padding: 1.9rem 2rem;
-            transition: background-color 0.2s ease-in-out;
-        }
-         a:hover {
-            background-color: rgba(255,255,255,0.35)
-        }
-        }
-
-        #nav-mobile {
-            display: inline-block;
-            z-index: 10;
-        }
-#mobile-menu {
-                position: fixed;
-                display: none;
-                flex-flow: column;
-                align-items: center;
-                top: 0;
-                left: 0;
-                background-color: white;
-                width: 100%;
-                height: 100vh;
-                font-size: 2rem;
-                padding-top: 10vh;
-               
-                a {
-                color: black;
-                padding: 2rem 0;
-                text-decoration: none;
-                }
-            }
-        
-}
-
-
-    
