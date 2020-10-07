@@ -9,7 +9,9 @@
   $email_subject = "Someone submited a form on your website!";
 
   $email_body = "You have received a new message from $name.\n\n".
-                          "Here is the message:\n\n $message ".
+                          "Here is the message:\n\n $message \n
+                          Contact him back at $visitor_email \n
+                          Company name $company \n                      ".
 
                           
   $to = "justin@mystarterkit.nl";
