@@ -1,14 +1,15 @@
 <?php
   $name = $_POST['name'];
   $visitor_email = $_POST['email'];
+  $company = $_POST['company'];
   $message = $_POST['message'];
 
   $email_from = 'contact@mystarterkit.nl';
 
-  $email_subject = "New Form submission";
+  $email_subject = "Someone submited a form on your website!";
 
-  $email_body = "You have received a new message from $name.\n".
-                          "Here is the message:\n $message".
+  $email_body = "You have received a new message from $name.\n\n".
+                          "Here is the message:\n\n $message ".
 
                           
   $to = "justin@mystarterkit.nl";

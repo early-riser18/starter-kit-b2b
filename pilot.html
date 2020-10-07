@@ -3,6 +3,7 @@
   <link rel="stylesheet" href="pilot.css" />
   <title>Contact us to set up a Pilot - Starter Kit</title>
 </head>
+
 <body>
   <script src="main.js"></script>
   <div class="front-cover">
@@ -145,15 +146,52 @@
   </div>
   <div id="contacting"></div>
   <div class="contact-form">
-    <form method="post" name="myemailform" action="contact-form-handler.php">
-      Enter Name: <input type="text" name="name" />
+    
 
-      Enter Email Address: <input type="text" name="email" />
 
-      Enter Message: <textarea name="message"></textarea>
+    <div class="container-contact100">
 
-      <input type="submit" value="Send Form" />
-    </form>
+		<div class="wrap-contact100">
+			<span class="contact100-form-symbol">
+				<img src="/assets/symbol-01.png" alt="SYMBOL-MAIL">
+			</span>
+
+			<form name="myemailform"  method="post" action="contact-form-handler.php" class="contact100-form validate-form flex-sb flex-w">
+				<span class="contact100-form-title">
+					Get In Touch With Us
+				</span>
+
+				<div class="wrap-input100 rs1 validate-input" data-validate = "Name is required">
+					<input class="input100" type="text" name="name" placeholder="Name">
+					<span class="focus-input100"></span>
+            </div>
+            
+            <div class="wrap-input100 rs1 validate-input" data-validate = "Company name is required">
+					<input class="input100" type="text" name="company" placeholder="Company Name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 rs1 validate-input" data-validate = "Email is required: e@a.z">
+					<input class="input100" type="text" name="email" placeholder="Email Address">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea class="input100" name="message" placeholder="Write Us A Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button type="submit" value="Submit form" class="contact100-form-btn">
+						Send
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
   </div>
   <div class="partners">
     <div id="title">
@@ -192,4 +230,5 @@
 
   <script src="footer.js"></script>
   <script src="headerScroll.js"></script>
+  
 </body>
