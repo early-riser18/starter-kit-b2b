@@ -84,11 +84,6 @@
   background-color: rgba(255, 255, 255, 0.35);
 }
 
-.topnav .navDropdownBtn {
-  -webkit-transition: none;
-  transition: none;
-}
-
 .topnav .navDropdownBtn:hover + .navDropdown {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,21 +91,16 @@
 }
 
 .topnav .navDropdown {
-  -webkit-transition: display 0.2s ease-in-out;
-  transition: display 0.2s ease-in-out;
+  display: none;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  width: 200px;
+  width: 210px;
   position: absolute;
-  top: 5.8rem;
-  left: 17%;
-  display: none;
+  top: 5.4rem;
+  left: 19.5%;
   -webkit-box-shadow: 4px 3px 5px #0000001f;
           box-shadow: 4px 3px 5px #0000001f;
 }

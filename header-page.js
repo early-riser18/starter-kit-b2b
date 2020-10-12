@@ -13,7 +13,7 @@ myHeader.innerHTML =
     <nav>
        <div class="topnav">
           <a href="/">Home</a>
-          <a class="navDropdownBtn">What We Have To Offer</a>
+          <a class="navDropdownBtn">Our Solutions</a>
 
           <span class="navDropdown" >
            <a href="/kits.html">The Kits</a>

@@ -11,7 +11,7 @@
   $email_body = "You have received a new message from $name.\n\n".
                           "Here is the message:\n\n $message \n".
                          "Contact him back at: $visitor_email \n".
-                          "Company name: $company \n ".;
+                          "Company name: $company \n ".
 
                           
   $to = "contact@mystarterkit.nl";

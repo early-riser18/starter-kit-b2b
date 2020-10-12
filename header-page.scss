@@ -63,27 +63,27 @@
     }
   }
 
-  .navDropdownBtn {
-    transition: none;
-  }
+ 
   .navDropdownBtn:hover + .navDropdown {
-    display: flex;
+    // opacity: 1;
+display: flex;
   }
   .navDropdown {
-    transition: display 0.2s ease-in-out;
-    background-color: white;
-    display: flex;
-    flex-flow: column nowrap;
-    width: 200px;
-    position: absolute;
-    top: 5.8rem;
-    left: 17%;
+    // transition: opacity 0.2s ease-in;
     display: none;
+    // opacity: 0;
+    background-color: white;
+    flex-flow: column nowrap;
+    width: 210px;
+    position: absolute;
+    top: 5.4rem;
+    left: 19.5%;
     box-shadow: 4px 3px 5px #0000001f;
 
     &:hover {
       display: flex;
     }
+    
   }
   #ctaPilot {
     border-radius: 5px;
