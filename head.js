@@ -8,9 +8,10 @@ let Head = {
     favicon: '<link rel="icon" type="image/png" href="https://mystarterkit.nl/assets/favicon.ico">',
     charset: '<meta charset="UTF-8">',
     description: '<meta name="description" content="Starter Kit helps housing organizations operate smart and achieve more. Design your tenant`s Starter Kit and let us handle the rest!">',
-    OGTitle: '<meta property="og:title" content="Starter Kit - Student Housing Provider" />',
-    OGDescription: '<meta property="og:description" content="Starter Kit helps housing organizations operate smart and achieve more. Design your tenant`s Starter Kit and let us handle the rest" />',
-    OGImg: '<meta property="og:image" content="./assets/og_image.main.jpg" />',
+    OGTitle: '<meta property="og:title" content="Helping Student Housing Provider Operate Smart & Achieve More" />',
+    OGType: '<meta property="og:type" content="website" />',
+    OGDescription: '<meta property="og:description" content="Design your tenant`s Starter Kit and let us handle the rest" />',
+    OGImg: '<meta property="og:image" content="https://i.ibb.co/SxRmG1h/Card-4-v3.jpg" />',
     canonical: `<link rel='canonical' href='https://mystarterkit.nl${window.location.pathname}'>`
 };
 
@@ -27,6 +28,7 @@ ${Head.favicon}
 ${Head.charset}
 ${Head.description}
 ${Head.OGTitle}
+${Head.OGType}
 ${Head.OGDescription}
 ${Head.OGImg}
 ${Head.canonical}
